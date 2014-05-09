@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E241F4BD-6A82-4059-9796-E7FF07040F9A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAXParser</RootNamespace>
+    <AssemblyName>DAXParser</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Argument.cs" />
+    <Compile Include="CodeParse\BaseObjectData.cs" />
+    <Compile Include="CodeParse\ClassData.cs" />
+    <Compile Include="CodeParse\Common\MethodData.cs" />
+    <Compile Include="CodeParse\Common\TagData.cs" />
+    <Compile Include="CodeParse\Config\CountryTags.cs" />
+    <Compile Include="CodeParse\Config\KeyWords.cs" />
+    <Compile Include="CodeParse\DirParse\DirParser.cs" />
+    <Compile Include="CodeParse\EnumData.cs" />
+    <Compile Include="CodeParse\FormData.cs" />
+    <Compile Include="CodeParse\Form\DataSource\DataSourceData.cs" />
+    <Compile Include="CodeParse\Form\DataSource\Field\DataFieldData.cs" />
+    <Compile Include="CodeParse\Form\DataSource\Field\ReferenceFieldData.cs" />
+    <Compile Include="CodeParse\Form\Design\ControlData.cs" />
+    <Compile Include="CodeParse\IO\CSVDumper.cs" />
+    <Compile Include="CodeParse\IO\XPOReader.cs" />
+    <Compile Include="CodeParse\MapData.cs" />
+    <Compile Include="CodeParse\QueryData.cs" />
+    <Compile Include="CodeParse\SSRSData.cs" />
+    <Compile Include="CodeParse\TableData.cs" />
+    <Compile Include="CodeParse\Util\Logger.cs" />
+    <Compile Include="CodeParse\ViewData.cs" />
+    <Compile Include="DAXParser.cs" />
+    <Compile Include="ModuleDirs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
