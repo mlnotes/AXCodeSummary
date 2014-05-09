@@ -91,6 +91,13 @@ namespace AXCodeSummary
 						break;
 				}
 			}
+
+			string strLayers = CacheHelper.Get(UPPERLAYERS);
+			string[] layers = strLayers.Split(new char[] { ';' }, StringSplitOptions.RemoveEmptyEntries);
+			for (int i = 1; i < layers.Length; ++i)
+			{
+				addLayer(layers[i]);
+			}
 		}
 
 		private void InitWorker()
@@ -265,8 +272,8 @@ namespace AXCodeSummary
 			CacheHelper.Set(COUNTRY, textCountry.Text);
 			CacheHelper.Set(REGION, textRegion.Text);
 			CacheHelper.Set(TAGREGION, textTagRegion.Text);
-			CacheHelper.Save();
-
+			
+			// upper layers
 			List<string> layers = new List<string>();
 			layers.Add(textBaseLayer.Text.Trim());
 			for (int i = 0; i < textLayers.Count; ++i)
@@ -276,6 +283,8 @@ namespace AXCodeSummary
 					layers.Add(textLayers[i].Text);
 				}
 			}
+			CacheHelper.Set(UPPERLAYERS, join(layers, ";"));
+			CacheHelper.Save();
 
 			ParmLayers = layers.ToArray();
 			ParmPattern = textPattern.Text;
@@ -351,12 +360,13 @@ namespace AXCodeSummary
 			targetControl.Anchor = baseControl.Anchor;
 		}
 
-		private void btnAddLayer_Click(object sender, EventArgs e)
+		private void addLayer(string layerPath = "")
 		{
 			// add text
 			TextBox text = new TextBox();
 			textLayers.Add(text);
 			setCommonAttributes(textBaseLayer, text);
+			text.Text = layerPath;
 			text.Top = textBaseLayer.Top + (text.Height + 2) * textLayers.Count;
 			groupLayers.Controls.Add(text);
 
@@ -379,6 +389,11 @@ namespace AXCodeSummary
 			btnDel.Tag = btnDels.Count - 1; // index of this button
 			btnDel.Click += new EventHandler(btnDel_Click);
 			groupLayers.Controls.Add(btnDel);
+		}
+
+		private void btnAddLayer_Click(object sender, EventArgs e)
+		{
+			addLayer();
 		}
 
 		void btnLayer_Click(object sender, EventArgs e)
