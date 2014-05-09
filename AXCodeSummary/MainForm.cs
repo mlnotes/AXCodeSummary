@@ -104,6 +104,7 @@ namespace AXCodeSummary
 		{
 			backgroundWorker.DoWork += new System.ComponentModel.DoWorkEventHandler(backgroundWorker_DoWork);
 			backgroundWorker.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(backgroundWorker_RunWorkerCompleted);
+			backgroundWorker.WorkerSupportsCancellation = true;
 		}
 
 		void backgroundWorker_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
@@ -241,6 +242,13 @@ namespace AXCodeSummary
 			return result.ToString();
 		}
 
+		private void enableAll(bool enable = true)
+		{
+			groupLayers.Enabled = enable;
+			btnRun.Enabled = enable;
+			groupConfig.Enabled = enable;
+		}
+
 		private void btnRun_Click(object sender, EventArgs e)
 		{
 			// mandatory
@@ -316,11 +324,15 @@ namespace AXCodeSummary
 			}
 
 			backgroundWorker.RunWorkerAsync();
+
+			enableAll(false);
 		}
 
 		void backgroundWorker_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
 		{
 			log("All Complete");
+			enableAll(true);
+
 			DialogResult result = MessageBox.Show(
 				"Open the result file?", 
 				"All Complete", 
@@ -384,6 +396,7 @@ namespace AXCodeSummary
 			Button btnDel = new Button();
 			btnDels.Add(btnDel);
 			setCommonAttributes(btnAddLayer, btnDel);
+			
 			btnDel.Text = "Delete";
 			btnDel.Top = btnAddLayer.Top + (btnDel.Height + 2) * btnDels.Count;
 			btnDel.Tag = btnDels.Count - 1; // index of this button

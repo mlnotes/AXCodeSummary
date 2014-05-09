@@ -140,12 +140,13 @@
 			// btnBaseLayer
 			// 
 			this.btnBaseLayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.btnBaseLayer.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.btnBaseLayer.Location = new System.Drawing.Point(377, 23);
 			this.btnBaseLayer.Name = "btnBaseLayer";
 			this.btnBaseLayer.Size = new System.Drawing.Size(60, 20);
 			this.btnBaseLayer.TabIndex = 15;
 			this.btnBaseLayer.Text = "Browse";
-			this.btnBaseLayer.UseVisualStyleBackColor = true;
+			this.btnBaseLayer.UseVisualStyleBackColor = false;
 			this.btnBaseLayer.Click += new System.EventHandler(this.btnBaseLayer_Click);
 			// 
 			// lblBaseLayer
@@ -478,6 +479,7 @@
 			this.textLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
 						| System.Windows.Forms.AnchorStyles.Left)
 						| System.Windows.Forms.AnchorStyles.Right)));
+			this.textLog.BackColor = System.Drawing.SystemColors.ControlLightLight;
 			this.textLog.Location = new System.Drawing.Point(6, 20);
 			this.textLog.Name = "textLog";
 			this.textLog.ReadOnly = true;
@@ -490,7 +492,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+			this.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.ClientSize = new System.Drawing.Size(622, 556);
 			this.Controls.Add(this.splitContainer1);
 			this.MinimumSize = new System.Drawing.Size(600, 0);
