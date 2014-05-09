@@ -35,7 +35,10 @@ namespace AXCodeSummary
 		private string[] ParmCountries;
 		private string[] ParmRegions;
 		private string[] ParmTagRegions;
-		
+
+		private List<TextBox> textLayers = new List<TextBox>();
+		private List<Button> btnLayers = new List<Button>();
+		private List<Button> btnDels = new List<Button>();
 
 		public MainForm()
 		{
@@ -264,7 +267,17 @@ namespace AXCodeSummary
 			CacheHelper.Set(TAGREGION, textTagRegion.Text);
 			CacheHelper.Save();
 
-			ParmLayers = new string[] { textBaseLayer.Text };
+			List<string> layers = new List<string>();
+			layers.Add(textBaseLayer.Text.Trim());
+			for (int i = 0; i < textLayers.Count; ++i)
+			{
+				if (!string.IsNullOrEmpty(textLayers[i].Text))
+				{
+					layers.Add(textLayers[i].Text);
+				}
+			}
+
+			ParmLayers = layers.ToArray();
 			ParmPattern = textPattern.Text;
 			ParmOutput = textOutput.Text;
 			ParmModules = modules.ToArray();
@@ -299,6 +312,15 @@ namespace AXCodeSummary
 		void backgroundWorker_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
 		{
 			log("All Complete");
+			DialogResult result = MessageBox.Show(
+				"Open the result file?", 
+				"All Complete", 
+				MessageBoxButtons.YesNo);
+
+			if (result == DialogResult.Yes)
+			{
+				System.Diagnostics.Process.Start(ParmOutput);
+			}
 		}
 
 		private void log(string msg)
@@ -321,10 +343,80 @@ namespace AXCodeSummary
 			}
 		}
 
+		private void setCommonAttributes(Control baseControl, Control targetControl)
+		{
+			targetControl.Left = baseControl.Left;
+			targetControl.Width = baseControl.Width;
+			targetControl.Height = baseControl.Height;
+			targetControl.Anchor = baseControl.Anchor;
+		}
+
 		private void btnAddLayer_Click(object sender, EventArgs e)
 		{
-			// TODO
-			//Console.WriteLine("xxxx");
+			// add text
+			TextBox text = new TextBox();
+			textLayers.Add(text);
+			setCommonAttributes(textBaseLayer, text);
+			text.Top = textBaseLayer.Top + (text.Height + 2) * textLayers.Count;
+			groupLayers.Controls.Add(text);
+
+			// add browser button
+			Button btnLayer = new Button();
+			btnLayers.Add(btnLayer);
+			setCommonAttributes(btnBaseLayer, btnLayer);
+			btnLayer.Text = btnBaseLayer.Text;
+			btnLayer.Top = btnBaseLayer.Top + (btnLayer.Height + 2) * btnLayers.Count;
+			btnLayer.Tag = btnLayers.Count - 1; // index of this button
+			btnLayer.Click += new EventHandler(btnLayer_Click);
+			groupLayers.Controls.Add(btnLayer);
+
+			// add delete button
+			Button btnDel = new Button();
+			btnDels.Add(btnDel);
+			setCommonAttributes(btnAddLayer, btnDel);
+			btnDel.Text = "Delete";
+			btnDel.Top = btnAddLayer.Top + (btnDel.Height + 2) * btnDels.Count;
+			btnDel.Tag = btnDels.Count - 1; // index of this button
+			btnDel.Click += new EventHandler(btnDel_Click);
+			groupLayers.Controls.Add(btnDel);
+		}
+
+		void btnLayer_Click(object sender, EventArgs e)
+		{
+			Button btn = (Button)sender;
+			int index = Convert.ToInt32(btn.Tag);
+			string path = selectFolder();
+			if (!string.IsNullOrEmpty(path))
+			{
+				textLayers[index].Text = path;
+			}
+
+		}
+
+		void btnDel_Click(object sender, EventArgs e)
+		{
+			Button btn = (Button)sender;
+			int index = Convert.ToInt32(btn.Tag);
+			int size = btnLayers.Count;
+
+			groupLayers.Controls.Remove(btnLayers[index]);
+			groupLayers.Controls.Remove(btnDels[index]);
+			groupLayers.Controls.Remove(textLayers[index]);
+			
+			btnLayers.Remove(btnLayers[index]);
+			btnDels.Remove(btnDels[index]);
+			textLayers.Remove(textLayers[index]);
+
+			for (int i = index; i < size-1; ++i)
+			{
+				btnLayers[i].Tag = i;
+				btnDels[i].Tag = i;
+				textLayers[i].Tag = i;
+
+				btnLayers[i].Top = btnBaseLayer.Top + (btnBaseLayer.Height + 2) * (i+1);
+				btnDels[i].Top = btnAddLayer.Top + (btnAddLayer.Height + 2) * (i + 1);
+				textLayers[i].Top = textBaseLayer.Top + (textBaseLayer.Height + 2) * (i + 1);
+			}
 		}
 	}
 }

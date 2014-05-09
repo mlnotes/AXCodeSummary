@@ -181,6 +181,7 @@ namespace DAXParser.CodeParse.DirParse
 			ManualResetEvent[] handles = new ManualResetEvent[] { new ManualResetEvent(false) };
 			foreach (string layerPath in layerPaths)
 			{
+				Logger.Log("Parsing files in folder: " + Path.Combine(layerPath, module));
 				FileInfo[] files = GetFiles(layerPath, module, pattern);
 				if (files.Length == 0)
 				{

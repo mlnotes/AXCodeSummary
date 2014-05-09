@@ -129,9 +129,9 @@
 			// btnAddLayer
 			// 
 			this.btnAddLayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnAddLayer.Location = new System.Drawing.Point(458, 23);
+			this.btnAddLayer.Location = new System.Drawing.Point(443, 23);
 			this.btnAddLayer.Name = "btnAddLayer";
-			this.btnAddLayer.Size = new System.Drawing.Size(34, 20);
+			this.btnAddLayer.Size = new System.Drawing.Size(49, 20);
 			this.btnAddLayer.TabIndex = 16;
 			this.btnAddLayer.Text = "Add";
 			this.btnAddLayer.UseVisualStyleBackColor = true;
@@ -142,7 +142,7 @@
 			this.btnBaseLayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnBaseLayer.Location = new System.Drawing.Point(377, 23);
 			this.btnBaseLayer.Name = "btnBaseLayer";
-			this.btnBaseLayer.Size = new System.Drawing.Size(75, 20);
+			this.btnBaseLayer.Size = new System.Drawing.Size(60, 20);
 			this.btnBaseLayer.TabIndex = 15;
 			this.btnBaseLayer.Text = "Browse";
 			this.btnBaseLayer.UseVisualStyleBackColor = true;
