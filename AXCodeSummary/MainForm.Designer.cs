@@ -96,14 +96,14 @@
 			this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
 			this.splitContainer1.Panel2.Controls.Add(this.groupLog);
 			this.splitContainer1.Panel2.Controls.Add(this.groupConfig);
-			this.splitContainer1.Size = new System.Drawing.Size(622, 556);
+			this.splitContainer1.Size = new System.Drawing.Size(634, 556);
 			this.splitContainer1.SplitterDistance = 93;
 			this.splitContainer1.TabIndex = 0;
 			// 
 			// btnRun
 			// 
 			this.btnRun.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnRun.Location = new System.Drawing.Point(529, 12);
+			this.btnRun.Location = new System.Drawing.Point(541, 12);
 			this.btnRun.Name = "btnRun";
 			this.btnRun.Size = new System.Drawing.Size(75, 65);
 			this.btnRun.TabIndex = 8;
@@ -122,7 +122,7 @@
 			this.groupLayers.Controls.Add(this.textBaseLayer);
 			this.groupLayers.Location = new System.Drawing.Point(12, 3);
 			this.groupLayers.Name = "groupLayers";
-			this.groupLayers.Size = new System.Drawing.Size(505, 82);
+			this.groupLayers.Size = new System.Drawing.Size(517, 82);
 			this.groupLayers.TabIndex = 5;
 			this.groupLayers.TabStop = false;
 			this.groupLayers.Text = "Layers";
@@ -130,7 +130,7 @@
 			// btnAddLayer
 			// 
 			this.btnAddLayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnAddLayer.Location = new System.Drawing.Point(443, 23);
+			this.btnAddLayer.Location = new System.Drawing.Point(455, 23);
 			this.btnAddLayer.Name = "btnAddLayer";
 			this.btnAddLayer.Size = new System.Drawing.Size(49, 20);
 			this.btnAddLayer.TabIndex = 16;
@@ -142,7 +142,7 @@
 			// 
 			this.btnBaseLayer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnBaseLayer.BackColor = System.Drawing.SystemColors.ControlLight;
-			this.btnBaseLayer.Location = new System.Drawing.Point(377, 23);
+			this.btnBaseLayer.Location = new System.Drawing.Point(389, 23);
 			this.btnBaseLayer.Name = "btnBaseLayer";
 			this.btnBaseLayer.Size = new System.Drawing.Size(60, 20);
 			this.btnBaseLayer.TabIndex = 15;
@@ -165,7 +165,7 @@
 						| System.Windows.Forms.AnchorStyles.Right)));
 			this.textBaseLayer.Location = new System.Drawing.Point(79, 23);
 			this.textBaseLayer.Name = "textBaseLayer";
-			this.textBaseLayer.Size = new System.Drawing.Size(292, 20);
+			this.textBaseLayer.Size = new System.Drawing.Size(304, 20);
 			this.textBaseLayer.TabIndex = 2;
 			// 
 			// groupLog
@@ -176,7 +176,7 @@
 			this.groupLog.Controls.Add(this.textLog);
 			this.groupLog.Location = new System.Drawing.Point(12, 215);
 			this.groupLog.Name = "groupLog";
-			this.groupLog.Size = new System.Drawing.Size(598, 232);
+			this.groupLog.Size = new System.Drawing.Size(610, 232);
 			this.groupLog.TabIndex = 7;
 			this.groupLog.TabStop = false;
 			this.groupLog.Text = "Log";
@@ -190,7 +190,7 @@
 			this.textLog.Location = new System.Drawing.Point(6, 20);
 			this.textLog.Name = "textLog";
 			this.textLog.ReadOnly = true;
-			this.textLog.Size = new System.Drawing.Size(586, 206);
+			this.textLog.Size = new System.Drawing.Size(598, 206);
 			this.textLog.TabIndex = 0;
 			this.textLog.Text = "";
 			this.textLog.TextChanged += new System.EventHandler(this.textLog_TextChanged);
@@ -228,7 +228,7 @@
 			this.groupConfig.Controls.Add(this.textOutput);
 			this.groupConfig.Location = new System.Drawing.Point(12, 3);
 			this.groupConfig.Name = "groupConfig";
-			this.groupConfig.Size = new System.Drawing.Size(598, 206);
+			this.groupConfig.Size = new System.Drawing.Size(610, 206);
 			this.groupConfig.TabIndex = 6;
 			this.groupConfig.TabStop = false;
 			this.groupConfig.Text = "Configuration";
@@ -325,7 +325,7 @@
 			// btnBrowseTagRegion
 			// 
 			this.btnBrowseTagRegion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnBrowseTagRegion.Location = new System.Drawing.Point(517, 174);
+			this.btnBrowseTagRegion.Location = new System.Drawing.Point(529, 174);
 			this.btnBrowseTagRegion.Name = "btnBrowseTagRegion";
 			this.btnBrowseTagRegion.Size = new System.Drawing.Size(75, 20);
 			this.btnBrowseTagRegion.TabIndex = 19;
@@ -336,7 +336,7 @@
 			// btnBrowseRegion
 			// 
 			this.btnBrowseRegion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnBrowseRegion.Location = new System.Drawing.Point(517, 148);
+			this.btnBrowseRegion.Location = new System.Drawing.Point(529, 148);
 			this.btnBrowseRegion.Name = "btnBrowseRegion";
 			this.btnBrowseRegion.Size = new System.Drawing.Size(75, 20);
 			this.btnBrowseRegion.TabIndex = 18;
@@ -347,7 +347,7 @@
 			// btnBrowseCountry
 			// 
 			this.btnBrowseCountry.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnBrowseCountry.Location = new System.Drawing.Point(517, 122);
+			this.btnBrowseCountry.Location = new System.Drawing.Point(529, 122);
 			this.btnBrowseCountry.Name = "btnBrowseCountry";
 			this.btnBrowseCountry.Size = new System.Drawing.Size(75, 20);
 			this.btnBrowseCountry.TabIndex = 17;
@@ -358,7 +358,7 @@
 			// btnBrowseOwnership
 			// 
 			this.btnBrowseOwnership.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnBrowseOwnership.Location = new System.Drawing.Point(517, 96);
+			this.btnBrowseOwnership.Location = new System.Drawing.Point(529, 96);
 			this.btnBrowseOwnership.Name = "btnBrowseOwnership";
 			this.btnBrowseOwnership.Size = new System.Drawing.Size(75, 20);
 			this.btnBrowseOwnership.TabIndex = 16;
@@ -369,7 +369,7 @@
 			// btnBrowseOutput
 			// 
 			this.btnBrowseOutput.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnBrowseOutput.Location = new System.Drawing.Point(517, 69);
+			this.btnBrowseOutput.Location = new System.Drawing.Point(529, 69);
 			this.btnBrowseOutput.Name = "btnBrowseOutput";
 			this.btnBrowseOutput.Size = new System.Drawing.Size(75, 20);
 			this.btnBrowseOutput.TabIndex = 14;
@@ -392,7 +392,7 @@
 						| System.Windows.Forms.AnchorStyles.Right)));
 			this.textTagRegion.Location = new System.Drawing.Point(85, 175);
 			this.textTagRegion.Name = "textTagRegion";
-			this.textTagRegion.Size = new System.Drawing.Size(420, 20);
+			this.textTagRegion.Size = new System.Drawing.Size(432, 20);
 			this.textTagRegion.TabIndex = 10;
 			// 
 			// label5
@@ -410,7 +410,7 @@
 						| System.Windows.Forms.AnchorStyles.Right)));
 			this.textRegion.Location = new System.Drawing.Point(85, 149);
 			this.textRegion.Name = "textRegion";
-			this.textRegion.Size = new System.Drawing.Size(420, 20);
+			this.textRegion.Size = new System.Drawing.Size(432, 20);
 			this.textRegion.TabIndex = 8;
 			// 
 			// label4
@@ -428,7 +428,7 @@
 						| System.Windows.Forms.AnchorStyles.Right)));
 			this.textCountry.Location = new System.Drawing.Point(85, 124);
 			this.textCountry.Name = "textCountry";
-			this.textCountry.Size = new System.Drawing.Size(420, 20);
+			this.textCountry.Size = new System.Drawing.Size(432, 20);
 			this.textCountry.TabIndex = 6;
 			// 
 			// label3
@@ -446,7 +446,7 @@
 						| System.Windows.Forms.AnchorStyles.Right)));
 			this.textOwnership.Location = new System.Drawing.Point(85, 97);
 			this.textOwnership.Name = "textOwnership";
-			this.textOwnership.Size = new System.Drawing.Size(420, 20);
+			this.textOwnership.Size = new System.Drawing.Size(432, 20);
 			this.textOwnership.TabIndex = 4;
 			// 
 			// label2
@@ -464,7 +464,7 @@
 						| System.Windows.Forms.AnchorStyles.Right)));
 			this.textPattern.Location = new System.Drawing.Point(85, 44);
 			this.textPattern.Name = "textPattern";
-			this.textPattern.Size = new System.Drawing.Size(420, 20);
+			this.textPattern.Size = new System.Drawing.Size(432, 20);
 			this.textPattern.TabIndex = 2;
 			this.textPattern.Text = "*.xpo";
 			// 
@@ -483,7 +483,7 @@
 						| System.Windows.Forms.AnchorStyles.Right)));
 			this.textOutput.Location = new System.Drawing.Point(85, 69);
 			this.textOutput.Name = "textOutput";
-			this.textOutput.Size = new System.Drawing.Size(420, 20);
+			this.textOutput.Size = new System.Drawing.Size(432, 20);
 			this.textOutput.TabIndex = 0;
 			// 
 			// openFileDialog
@@ -505,9 +505,9 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ControlLight;
-			this.ClientSize = new System.Drawing.Size(622, 556);
+			this.ClientSize = new System.Drawing.Size(634, 556);
 			this.Controls.Add(this.splitContainer1);
-			this.MinimumSize = new System.Drawing.Size(600, 39);
+			this.MinimumSize = new System.Drawing.Size(650, 39);
 			this.Name = "MainForm";
 			this.Text = "AX Code Summary";
 			this.splitContainer1.Panel1.ResumeLayout(false);
