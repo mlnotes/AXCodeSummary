@@ -1,0 +1,9 @@
+Region	Tag Prefix
+APAC	GIN
+APAC	GJP
+APAC	GCN
+APAC	GTH
+LATAM	GBR
+Russia	GEERU
+East European	GEE
+Regional Common	GEEW

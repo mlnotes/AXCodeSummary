@@ -1,0 +1,15 @@
+Country	Postfix
+IN	*_IN
+RU	*_RU
+CN	*_CN
+JP	*_JP
+BR	*_BR
+HU	*_HU
+MY	*_MY
+TH	*_TH
+CZ	*_CZ
+LV	*_LV
+PL	*_PL
+LT	*_LT
+AU	*_AU
+SA	*_SA

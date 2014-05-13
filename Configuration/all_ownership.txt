@@ -1,0 +1,2595 @@
+Feature team	Prefix
+AIF	AF
+AIF	AIF
+AIF	AxBase
+AIF	AxdBase
+AIF	AxdGenerate
+AIF	AxdGenericDocument
+AIF	AxdSend
+AIF	AxdStack
+AIF	AxdUtil
+AIF	AxdWizard
+AIF	AxdXML
+AIF	AxGenerate
+AIF	AxInternalBase
+AIF	AxMapPolicy
+AIF	Gateway
+AIF	MSMQ
+AIF	SysAction
+AIF	SysOperation
+AIF	SysQuick
+AIF	SysException
+AIF	SysOperationProgressWait
+AIF	SysReferenceNodeAddService
+AIF	SysResourceNodeAddService
+AIF	System.XML
+AIF	SysBPCheckAIF
+AIF	SysBPCheckAxD
+AIF	SysBPCheckDataSet
+AIF	SysBPCheckService
+AIF	SysUpgradeAIF
+AIF	XML
+AIF	XSD
+AIF	Runbase
+AIF	Data
+	
+AppConfig	AppConfig
+AppConfig	RapidStart
+AppConfig	SysLcs
+	
+Business Intelligence	BI
+Business Intelligence	CompanyDomainListView
+Business Intelligence	DSO
+Business Intelligence	DocuActionSSRSReport
+Business Intelligence	EPCEO
+Business Intelligence	ClientPrintJobSettings
+Business Intelligence	Dynamics AX
+Business Intelligence	ImageListAppl_BIAnalysisServices
+Business Intelligence	Microsoft.Dynamics...ramework.Management
+Business Intelligence	Microsoft.Dynamics.Analysis
+Business Intelligence	Microsoft.Dynamics.AX.Framework.Analytics
+Business Intelligence	Microsoft.Dynamics...Framework.Analytics
+Business Intelligence	Microsoft.Dynamics.AX...Reports.Shared
+Business Intelligence	Microsoft.Dynamics.AX.Framework.Reports
+Business Intelligence	Microsoft.Dynamics.Report
+Business Intelligence	OLAP
+Business Intelligence	OuputSection
+Business Intelligence	Output
+Business Intelligence	PDF
+Business Intelligence	PowerView
+Business Intelligence	Print
+Business Intelligence	Report
+Business Intelligence	SRS
+Business Intelligence	SSAS
+Business Intelligence	SSRS
+Business Intelligence	SysArgs
+Business Intelligence	SysAutoReport
+Business Intelligence	SysBIAnalysis
+Business Intelligence	SysBPCheckReport
+Business Intelligence	SysBPCheckSSRS
+Business Intelligence	SysCom
+Business Intelligence	SysDummyPrintViewer
+Business Intelligence	SysPDF
+Business Intelligence	SysPrint
+Business Intelligence	SysReport
+Business Intelligence	SysRTF
+Business Intelligence	SysSaveReport
+Business Intelligence	SysSecuritySRSHelper
+Business Intelligence	SysSRS
+Business Intelligence	SysTableForm
+Business Intelligence	SystemList
+Business Intelligence	TmpAnalysis
+Business Intelligence	UsePrintMgmt
+Business Intelligence	XrefSSRSReport
+Business Intelligence	SysStartupCmdGenerateSsasProject
+	
+Client	AbsoluteFieldBinding
+Client	Avi
+Client	AxDocuRef
+Client	Bitmap
+Client	Box
+Client	ButtonStateProvider
+Client	CalendarConverter
+Client	ClientGranular
+Client	ContentType
+Client	ControlFilterValue
+Client	ControlNode
+Client	CopyCaller
+Client	Cue
+Client	DataSourceMethodInfo
+Client	DataSourceMethodInfoList
+Client	DataSourceNode
+Client	DataSourceRuntimeMetadataChangedEvtArgs
+Client	DDE
+Client	Dialog
+Client	DictFormBuildDataSource
+Client	DictFormBuildDataSourceField
+Client	DocNode
+Client	Docu
+Client	EPDefaultRoleCenter
+Client	FieldBinding
+Client	FieldFilterValue
+Client	FilterValue
+Client	Form
+Client	FormC
+Client	FormManaged
+Client	Graphics
+Client	GroupStyle
+Client	HelpDocSet
+Client	HelpDocumentManager
+Client	HelperSIG
+Client	helpfileNode
+Client	HelpGenerator
+Client	HelpUpdateMethod 
+Client	HelpValidateDialog
+Client	Image
+Client	ImageList
+Client	ImportExportHelper
+Client	Info
+Client	InitialQueryParameter
+Client	Kernel
+Client	LaunchGettingStartedChm
+Client	ListPage
+Client	LoadAutoCompleteDataEventArgs
+Client	ManagedEventArgs
+Client	ManagedEventDelegate
+Client	ManagedEventHandler
+Client	MaxDateLabel
+Client	Menu
+Client	MessageWin
+Client	Microsoft.Dynamics...I.WinForms.Controls
+Client	Microsoft.Dynamics.AX.Framework.Client
+Client	MultiSelectionContext
+Client	NeedsRecordProp
+Client	OpenModeProperty
+Client	PartList
+Client	PickList
+Client	PopupMenu
+Client	PresenceInfo
+Client	Presentation
+Client	Profile
+Client	RelationPath
+Client	RelativeFieldBinding
+Client	SecureNode
+Client	SegmentEnteredEventArgs
+Client	SegmentValueChangedEventArgs
+Client	Sequence
+Client	SurrogateFKReplacementHelper
+Client	SysAbout
+Client	SysActiveX
+Client	SysAddField
+Client	SysBox
+Client	SysBPCheckCue
+Client	SysBPCheckForm
+Client	SysBPCheckHelp
+Client	SysBPCheckInfoPart
+Client	SysBPCheckListPage
+Client	SysBPCheckMenu
+Client	SysBPForm
+Client	SysCacheHistoryItem
+Client	SysChoose
+Client	SysClient
+Client	SysControlLabel
+Client	SysConView
+Client	SysCue
+Client	SysDataSearch
+Client	SysDate
+Client	SysDeveloperDocumentHelpProvid
+Client	SysDictFieldGroup
+Client	SysDictMenu
+Client	SysDocNode
+Client	SysEditUser
+Client	SysExportToExcel
+Client	SysEvent
+Client	SysFavorites
+Client	SysfGrid
+Client	SysFont
+Client	SysForm
+Client	SysFunctionName
+Client	SysGrid
+Client	SysGS
+Client	SysHelp
+Client	SysHint
+Client	SysImageTable
+Client	SysInet
+Client	SysInfo
+Client	SysITaskRecorderBase 
+Client	SysListPanel
+Client	SysLookup
+Client	SysManage
+Client	SysMenu
+Client	SysModal
+Client	SysMultiSelectGrid
+Client	SysNavPane
+Client	SysOpenFile
+Client	SysOperationProgress
+Client	SysPartFactory
+Client	SysPathName
+Client	SysPersonalization
+Client	SysPicture
+Client	SysProfiles
+Client	SysProgress
+Client	SysProper
+Client	SysQuickLinks
+Client	SysReferenceTable
+Client	SysSaveFile
+Client	SysSaveSetup
+Client	SysSearch
+Client	SysSecAnalysisForm
+Client	SysSecAnalysisInfoPart
+Client	SysSecBaseForm
+Client	SysSecurityViewGUI
+Client	SysSetup
+Client	SysSpellChecker
+Client	SysStartup
+Client	SysTaskPane
+Client	SysTaskRecorder
+Client	SysTaskRecorder_MenubarEvents
+Client	SysTaskRecorder_NavEvents
+Client	SysTaskRecorder_ToolbarEvents
+Client	SysTaskRecorderBase
+Client	System.Drawing
+Client	System.Windows.Forms
+Client	SystemInfo
+Client	SysTmpManagedControl
+Client	sysValidTime
+Client	SysVirtual
+Client	SysWindow
+Client	SysWizard
+Client	TmpFontName
+Client	TmpHelp
+Client	TmpRoleCenterMenu
+Client	TmpSearch
+Client	TmpSecurity
+Client	TmpSysQuery
+Client	Tutorial_Apply
+Client	Tutorial_DDETest
+Client	tutorial_DefaultDataWizard 
+Client	Tutorial_EventProcessor 
+Client	tutorial_Gantt
+Client	Tutorial_Grid
+Client	tutorial_HelpPane
+Client	tutorial_HorseRace
+Client	tutorial_ListPanel
+Client	tutorial_Memory
+Client	Tutorial_Progress
+Client	tutorial_Recurrence
+Client	Tutorial_ShowAviFiles
+Client	tutorial_ShowIcons
+Client	tutorial_TableDescription
+Client	tutorial_Tetris
+Client	tutorial_Thread
+Client	tutorial_Timer
+Client	tutorial_XSL
+Client	TutorialDefaultData
+Client	TutorialDefData
+Client	tutorialThread
+Client	Unicode
+Client	UseCaptionFromMenu
+Client	UTC
+Client	VirtualChannelManager
+Client	WindowsBase
+Client	WindowsPalette
+Client	xInfo
+Client	xMenuLabel
+Client	xNavPane
+Client	xTaskPane
+Client	xToastNotification
+Client	xUser
+	
+EP	*WebLet
+EP	*Weblet
+EP	Abc
+EP	AxaptaCOMConnectorMonitor
+EP	ConfirmationDialog
+EP	DataSet
+EP	DataSetQueryMiner
+EP	DataSetRun
+EP	Default
+EP	DictDataSet
+EP	DynamicPropertyCallback
+EP	DynamicPropertyManager
+EP	EnterprisePortal
+EP	EntityMiniBase
+EP	EP
+EP	EPDocu
+EP	EPGlobalMenu
+EP	EPGlobalParameters
+EP	FormBuildWeb
+EP	FormWeb
+EP	G360
+EP	HTML
+EP	IISApplicationObject
+EP	IISContextObject
+EP	IISPostedFile
+EP	IISReadCookie
+EP	IISRequest
+EP	IISRequestDictionary
+EP	IISResponse
+EP	IISServer
+EP	IISSessionObject
+EP	IISStringList
+EP	IISVariantDictionary
+EP	IISViewState
+EP	IISWriteCookie
+EP	InteractionService
+EP	MiniEntity 
+EP	Page
+EP	PageArgs
+EP	PageInteraction
+EP	PortalClass
+EP	SearchParm
+EP	SysASDI
+EP	SysBC
+EP	SysBDC
+EP	SysBpCheckWeb
+EP	SysBusinessConnector
+EP	SysColor
+EP	SysDeleteSelectedRecord
+EP	SysDevelopmentProxy
+EP	SysEncryption
+EP	SysEP
+EP	SysExpand
+EP	SysHeading
+EP	SysHTML
+EP	SysImage
+EP	SysInternet
+EP	SysListPage
+EP	SysPerimeter
+EP	SysRolesList
+EP	SysRoundedHead
+EP	SysSearchCrawler
+EP	SysSearchSetup
+EP	SysSecEP
+EP	SysSecEPAnalysisWebControlActionHdlr
+EP	SysSelectEP
+EP	SysSpecifySize
+EP	System.Web
+EP	SysURL
+EP	SysVerticalAlignment
+EP	SysWeb
+EP	Tutorial_Lookup
+EP	Web
+EP	WSS
+	
+Compiler	*ManagedInterop
+Compiler	Args
+Compiler	Array
+Compiler	Ascii
+Compiler	AssemblyDeployManager
+Compiler	CLRInterop
+Compiler	CLRObject
+Compiler	CodeAccessPermission
+Compiler	COM
+Compiler	COMDispFunction
+Compiler	COMEnum2Object
+Compiler	COMEnum2Variant
+Compiler	COMError
+Compiler	COMVariant
+Compiler	ContainerClass
+Compiler	Debug
+Compiler	DictClass
+Compiler	DictEnum
+Compiler	DictMethod
+Compiler	DLL
+Compiler	Error
+Compiler	ExecutePermission
+Compiler	FileIOPermission
+Compiler	Gac
+Compiler	Global
+Compiler	HeapCheck
+Compiler	IntListBaseClass
+Compiler	Keywords
+Compiler	List
+Compiler	MacroBuild
+Compiler	Map
+Compiler	MapEnumerator
+Compiler	MapIterator
+Compiler	MemberFunction
+Compiler	MethodInfo
+Compiler	Microsoft.Dynamics...work.CrossReference
+Compiler	Microsoft.Dynamics.AX.Framework.CrossReference
+Compiler	MS.Dynamics.AX.Fram..sReference.UnitTest
+Compiler	MS.Dynamics.AX.Framework.CrossReference.UnitTest
+Compiler	Queue
+Compiler	Random
+Compiler	ReferenceNode
+Compiler	Runtime
+Compiler	ScannerClass
+Compiler	Set
+Compiler	Stack
+Compiler	String255
+Compiler	StrListBaseClass
+Compiler	Struct
+Compiler	SysAnyType
+Compiler	SysAttribute
+Compiler	SysAutoSemaphore
+Compiler	SysBreakpoint
+Compiler	SysBusinessConnectorRole
+Compiler	SysCLR
+Compiler	SysCodeCoverage
+Compiler	SysComClass
+Compiler	SysCompile
+Compiler	SysComWrapper
+Compiler	SysDebugger
+Compiler	SysDict
+Compiler	SysGAC
+Compiler	SysObsoleteAttribute 
+Compiler	SysReference
+Compiler	SysScannerClass
+Compiler	SysTLI
+Compiler	SysTmpGac
+Compiler	SysXLNT
+Compiler	SysXPP
+Compiler	SysXppEvent
+Compiler	Text
+Compiler	Thread
+Compiler	TmpCompile
+Compiler	xpp
+Compiler	XppEvent
+Compiler	XppLanguageService
+Compiler	xUnitTestBrowser
+Compiler	xRef
+	
+Control	*_Control
+Control	*_COS
+Control	ATL
+Control	BomCalc
+Control	BomCostGroup
+Control	BomDefaultProductionFlow
+Control	BomProdFlow
+Control	CMS
+Control	COS
+Control	CostAccounting 
+Control	CostCalc
+Control	CostingVersion
+Control	CostSheet
+Control	CostTmp
+Control	DimensionCopy
+Control	IndirectCost
+Control	InventAdj
+Control	InventAging
+Control	InventCheck
+Control	InventClosing
+Control	InventCost
+Control	InventItemCost
+Control	InventItemPrice
+Control	InventLedger
+Control	InventModelType
+Control	InventPosting
+Control	InventPrice
+Control	InventSettlement
+Control	InventSiteDimensionLink
+Control	InventStdCost
+Control	InventValue
+Control	LeanConversionCost
+Control	LeanCost
+Control	LeanProductionFlowCost
+Control	LeanProductionFlowVariances
+Control	LeanWIPBalanceUpdate
+Control	PdsCost
+Control	ProdCalcTrans
+Control	ProdGroup
+Control	ProdIndirectCostInProgress
+Control	ProdIndirectTrans
+Control	ProdMultiBomCalc
+Control	ProdMultiCostEstimation
+Control	ProdMultiHistoricalCost
+Control	ProdRawMaterialInProgress
+Control	ProdResourcesInProgress
+Control	ProdStandard
+Control	ProdTableJour
+Control	ProdUpdBOMCalc
+Control	ProdUpdCostEstimation
+Control	ProdUpdHistoricalCost
+Control	ProdWipLedgerConflict
+Control	PurchCalcCost
+Control	PurchCalcItem
+Control	PurchCost
+Control	PurchIndirect
+Control	RouteCostCategory
+Control	SysExt
+	
+CPM	BaDataService
+CPM	BADataService
+CPM	BaDataServiceClass
+CPM	BAServiceApp
+CPM	BusinessAnalyzer
+CPM	BusinessAnalyzerService
+CPM	ManagementReporter
+CPM	XBRL
+	
+CRM	Activities
+CRM	Activity
+CRM	Address
+CRM	AxdAddress
+CRM	AxdContact
+CRM	AxdCustomer
+CRM	AxDir
+CRM	AxdSysImportBus
+CRM	AxdSysImportContact
+CRM	AxdSysImportLeads
+CRM	AxLogistics
+CRM	AxRelatedEntity
+CRM	Case
+CRM	CompanyDir
+CRM	Contact
+CRM	CRM
+CRM	CustBasedata
+CRM	CustCustomer
+CRM	CustDeliveryInfo
+CRM	CustDir
+CRM	CustEP
+CRM	CustInvoicedItems
+CRM	CustList
+CRM	Customer
+CRM	CustOpenCase
+CRM	CustOpenQuotations
+CRM	CustOpenSales
+CRM	CustPhoneList
+CRM	CustRelatedInfo
+CRM	CustReturnOrders
+CRM	CustSalesQuotation
+CRM	CustTable
+CRM	default_sales
+CRM	DEL_upgrade
+CRM	Dir
+CRM	EPAddLevel
+CRM	EPBR
+CRM	EPCreateInvoice
+CRM	EPCust
+CRM	EPCustContact
+CRM	EPDedicatedSales
+CRM	EPEditLevel
+CRM	EPMarketing
+CRM	EPSalesAndMarketing
+CRM	EPSalesQuotationNewBusRel
+CRM	EPSalesQuotationsRelInfoBusRel
+CRM	EPSuperSales
+CRM	EPVendContact
+CRM	GlobalAddress
+CRM	Logistics
+CRM	MoveToStage 
+CRM	MyAddressBook
+CRM	MyParty
+CRM	Outlook
+CRM	Person
+CRM	PrintMgmtCustTable
+CRM	PrintMgmtNode_CustTable
+CRM	QuotationList
+CRM	SalesAnalysis
+CRM	SalesAndMarketing 
+CRM	SalesVsTarget
+CRM	SMM
+CRM	SysCountryRegionCode
+CRM	SysEmail
+CRM	SysIMapi
+CRM	SysImport
+CRM	SysMap
+CRM	SysMapi
+CRM	SysOutgoingEmail
+CRM	SysOutlook
+CRM	SysSendMail
+CRM	SysStatusChangeDateTime
+CRM	SysTranslationData
+CRM	SysWindowsApp
+CRM	SysWindowsAzure
+CRM	SysVisioDirectory
+CRM	TmpEmailBody
+CRM	TmpTableFieldLookup
+CRM	UnderConstruction
+CRM	WinningOpportunity
+	
+DPT	Appl
+DPT	AxAxdTable
+DPT	AxdForUnitTest
+DPT	Class
+DPT	Comma7Io
+DPT	CommaIo
+DPT	CommaTextIo
+DPT	CompileOutputInfos
+DPT	CustomizeToolbar
+DPT	Development
+DPT	Dictionary
+DPT	DynamicArray
+DPT	Editor
+DPT	EditorScripts
+DPT	Enum
+DPT	GuidKernel
+DPT	Io
+DPT	KernelUnitTest
+DPT	Label
+DPT	LanguageTable
+DPT	LastAotSelection
+DPT	Object
+DPT	Parse
+DPT	ProjectNode
+DPT	PropertiesWindow
+DPT	Resource
+DPT	str2XXX
+DPT	StringCch
+DPT	SysAOD
+DPT	SysAOT
+DPT	SysApi
+DPT	SysApplicationObject
+DPT	SysBit
+DPT	SysBP
+DPT	SysClass
+DPT	SysCodeExplorer
+DPT	SysCompar
+DPT	SysCompilerOutput
+DPT	SysContext
+DPT	SysCopyToCurrentLayer
+DPT	SysDevelopment
+DPT	SysDictionary
+DPT	SysEditor
+DPT	SysElement
+DPT	SysER
+DPT	SysExportDialog
+DPT	SysGlobalCache
+DPT	SysGuid
+DPT	SysImportDialog
+DPT	SysInt
+DPT	SysIO
+DPT	SysKernelUnitTest
+DPT	SysLabel
+DPT	SysLanguage
+DPT	SysListSelect
+DPT	SysMerge
+DPT	SysMethod
+DPT	SysMock
+DPT	SysModel
+DPT	SysModule
+DPT	SysMorphX
+DPT	SysObsoleteAttribute
+DPT	SysOpen
+DPT	SysOSInfo
+DPT	SysPick
+DPT	SysProjectFilter
+DPT	SysResource
+DPT	SysShellExecute
+DPT	SysSoftTool
+DPT	SysSource
+DPT	SysStartUpCmdDrillDown
+DPT	SysStartUpCmdViewAlert
+DPT	SysStartUpCmdViewAlertRule
+DPT	SysTeamServer
+DPT	SysTest
+DPT	SysTreeHierarchy
+DPT	SysTreeNode
+DPT	SysTreeSearch
+DPT	SysTypeHierarchy
+DPT	SysUML
+DPT	SysUnitTestable
+DPT	SysUtil
+DPT	SysVersionControl
+DPT	SysVisio
+DPT	SysVS
+DPT	SysVSProjectNodeObservable
+DPT	SysVSProjectNodeObserver
+DPT	SysVSProjectsExport
+DPT	SysWizardWizard
+DPT	SysXMLDoc
+DPT	TmpAot
+DPT	TmpNotes
+DPT	TmpProperty
+DPT	TmpTable
+DPT	TmpWizard
+DPT	Tree
+DPT	tutorial_Auction
+DPT	Tutorial_Comparable
+DPT	Tutorial_CompareContextProvider
+DPT	Tutorial_DDETest
+DPT	Tutorial_Progress
+DPT	Tutorial_ShowAviFiles
+DPT	UserInfoStartupModel
+DPT	util
+DPT	ve
+DPT	VS
+DPT	Win
+DPT	xApplication
+DPT	xClassFactory
+DPT	xCompilerOutput
+DPT	xGlobal
+DPT	xrefVisualStudio
+DPT	xTeamServerSession
+DPT	xUtil
+DPT	Xunit
+DPT	xVersionControl
+	
+Dynamics Online	DOCommerce
+Dynamics Online	DoPaymentConnector 
+Dynamics Online	DOCommon
+Dynamics Online	DOSites
+Dynamics Online	SitesSvc
+Dynamics Online	SyncDocument
+Dynamics Online	SyncSolution
+Dynamics Online	SyncSynchronization
+Dynamics Online Total	
+	
+Expense Management	AccDistRuleIntercompanyCost
+Expense Management	AccDistRuleProjectTimesheets
+Expense Management	AccJourRuleIntercompanyCost
+Expense Management	AccJourRuleProjecTimesheets
+Expense Management	AccPolicyNeverNoLedgerForProjTimesheets
+Expense Management	AxdExpense
+Expense Management	AxdTrv
+Expense Management	AxTrv
+Expense Management	Category
+Expense Management	default_EmployeeServices_ApproveExpenses 
+Expense Management	default_EmployeeServices_ManageExpenses 
+Expense Management	DimDerDistRuleIntercompanyCost
+Expense Management	DimDerDistRuleProjectTimesheetsExt
+Expense Management	DimDerJourRule
+Expense Management	ExpenseManagement
+Expense Management	GlobalCategory
+Expense Management	SysPolicy
+Expense Management	TravelAndExpense
+Expense Management	TRV
+Expense Management	TS
+Expense Management	tutorial_Expense
+Expense Management Total	
+	
+Accounts Receivable	*_Currency
+Accounts Receivable	*_ExchangeRate
+Accounts Receivable	*FreeInvoice
+Accounts Receivable	*FreeTextInvoice
+Accounts Payable	*PurchaseInvoice
+Accounts Receivable	*SalesInvoice
+Accounts Payable	*VendInvoice
+General Ledger	AccDist
+General Ledger	AccJour
+General Ledger	Accountant
+General Ledger	Accounting
+General Ledger	AccountingDistribution
+General Ledger	AccountingEvent
+General Ledger	AccountingLegal
+General Ledger	AccountingManager
+Accounts Payable	AccountsPayable
+Accounts Receivable	AccountsReceivable
+General Ledger	AccountStructureContract
+General Ledger	AccountSumMap
+General Ledger	AccPolicy
+Accounting Framework	AcctDualVoucherScenario
+Accounting Framework	AcctSourceDoc
+Accounting Framework	AcctSubledger
+General Ledger	Allocate
+Fixed Assets	Asset
+Compliance	AuditPolicy
+General Ledger	AxAccountingDistribution
+General Ledger	AxAddress
+Fixed Assets	AxAsset
+Cash Management	AxCash
+Cash Management	AxCustPaym
+Cash Management	AxCustSettle
+Cash Management	AxCustTransOpen
+Cash Management	AxCustVendPaym
+General Ledger	AxDimension
+Fixed Assets	AxdAsset
+Budget	AxdBudget
+Cash Management	AxdCash
+Cash Management	AxdCustPaym
+General Ledger	AxdDim
+General Ledger	AxdExchange
+Cash Management	AxdExportCustVendPayment
+Fixed Assets	AxdFixedAsset
+Accounts Receivable	AxdFreeText
+General Ledger	AxDimensionAttributeValueCombi
+General Ledger	AxdLedger
+Cash Management	AxdPaym
+General Ledger	AxdSendDim
+General Ledger	AxdSendExch
+Accounts Payable	AxdSendVend
+Accounts Payable	AxdVendInv
+Cash Management	AxdVendorPayment
+Cash Management	AxdVendPaym
+Accounts Payable	AxInventDim_Vend
+Cash Management	AxPaymTerm
+Accounts Payable	AxVendTransOpen
+Cash Management	AxVendSettle
+Cash Management	Bank
+General Ledger	Bookkeeper
+Budget	Budget
+Budget	Budgeting
+General Ledger	BusinessEvent
+General Ledger	BusinessStatistics
+Cash Management	CashAndBankManagement
+Cash Management	CashDisc
+Cash Management	CentralizedPayments
+General Ledger	CFO
+General Ledger	Charge
+General Ledger	ChargeMainAcc
+General Ledger	ChartFX
+General Ledger	ChartOfAccounts
+Cash Management	Cheque
+Accounts Receivable	CollectionLetter
+General Ledger	Company
+Compliance	Compliance
+CPM Connector	Conn
+CPM Connector	TestProject_Connector
+General Ledger	Controller
+General Ledger	Conv
+Accounts Receivable	CreditAndCollection
+Accounts Receivable	CreditCard
+General Ledger	CRSE
+General Ledger	Currency
+Accounts Receivable	Cust
+Cash Management	CustBankPrenoteGeneration
+Cash Management	CustBankRemit
+Cash Management	CustBillOfExch
+Cash Management	CustCashRcpt
+Accounts Receivable	CustCreateCorrected
+Accounts Receivable	CustDirectDebit
+Cash Management	CustExch
+Accounts Receivable	CustFreeInvoice
+Accounts Receivable	CustInterestCreateTestable
+Accounts Receivable	CustInterestNote
+Accounts Receivable	CustInterestPostTest
+Accounts Receivable	CustInterestWaive
+Accounts Receivable	CustInvoice
+Cash Management	CustInPaym
+Accounts Receivable	CustLedgerTransTypeMapping
+Cash Management	CustNsf
+Cash Management	CustOpenInvoicesLookup
+Cash Management	CustOpenTrans
+Cash Management	CustOutPaym
+Cash Management	CustOverPaym
+Cash Management	CustPaym
+Cash Management	CustPDC
+Cash Management	CustPostDatedCheck
+Cash Management	CustPrepay
+Accounts Receivable	CustRelatedInvoice
+Accounts Payable	CustVendCashDiscMulti_Vend
+Accounts Payable	CustVendCreatePaymJournal_Vend
+Accounts Payable	CustVendCreatePaymJournalNote_Vend
+Cash Management	CustSettle
+Cash Management	CustShowspecifikation
+Cash Management	CustSpecTrans
+Cash Management	CustSumForPaym
+Accounts Receivable	CustTransOpen
+Cash Management	CustTransSettle
+Cash Management	CustUnsettle
+Cash Management	CustVendAifPaymTable
+Cash Management	CustVendBankPaym
+Cash Management	CustVendCash
+Cash Management	CustVendCheque
+Cash Management	CustVendCreatePaym
+Cash Management	CustVendExch
+Cash Management	CustVendFindSettlements
+Accounts Receivable	CustVendInvoiceTrans
+Cash Management	CustVendNACHAIATInfoTable_US
+Cash Management	CustVendOpenTrans
+Cash Management	CustVendOutPaym
+Cash Management	CustVendPaym
+Accounts Payable	CustVendPaymManPost_Vend
+Cash Management	CustVendPDC
+Cash Management	CustVendPrepay
+Cash Management	CustVendSettle
+Cash Management	CustVendSumForPaym
+Cash Management	CustVendTransOpen
+Cash Management	CustVendTransReorg
+General Ledger	DimDer
+General Ledger	Dimension
+General Ledger	DimensionAttributeDS
+General Ledger	DimValidationStatusListContract
+General Ledger	DiscountMainAccount
+General Ledger	Distribution
+General Ledger	EPAccount
+Budget	EPActualvsBudget
+General Ledger	EPBook
+Cash Management	EPCash
+General Ledger	EPCFO
+General Ledger	EPChiefFinancial
+Compliance	EPCompliance
+General Ledger	EPController
+General Ledger	EPCredit
+Accounts Receivable	EPCustCollection
+Accounts Receivable	EPCustInterest
+Accounts Receivable	EPCustInvoice
+Accounts Receivable	EPCustUnpaidInvoice
+Cash Management	EPExpectedCash
+General Ledger	EPFinance
+General Ledger	EPGrossProfit
+Accounts Receivable	EPPostedCustomer
+General Ledger	EPProfitability
+Accounts Payable	EPPurchasesPast
+Accounts Payable	EPPurchCollection
+Accounts Receivable	EPSalesPast
+Tax	EPSalesTax
+General Ledger	EPTopX
+General Ledger	EPTotalAccounts
+General Ledger	EPTotalExpenses
+Accounts Payable	ESSVend
+Tax	EstimatedTax
+General Ledger	ExchangeRate
+General Ledger	ExchRate
+General Ledger	FIMSurrogate
+General Ledger	FIMUnitTest
+General Ledger	FinancialDimension
+General Ledger	FinancialTagCategory
+General Ledger	Fiscal
+General Ledger	FiscalCalendar
+Fixed Assets	FixedAsset
+Accounts Receivable	FreeTextInvoice
+General Ledger	Futures
+General Ledger	GeneralJournal
+General Ledger	GeneralLedger
+Accounts Receivable	Giro
+General Ledger	Globalisation
+General Ledger	Graphics_BusinessStatistics
+General Ledger	Graphics_ByAgeAllocation
+General Ledger	Graphics_ByAgeAndDate
+General Ledger	Graphics_LedgerBalance
+General Ledger	Graphics_Period
+Budget	ImageListAppl_Budget
+General Ledger	ImageListAppl_Correction
+Accounts Receivable	ImageListAppl_CustInterest
+General Ledger	ImageListAppl_JournalizingDefinition
+Accounts Receivable	Interest
+Compliance	InternalControls
+General Ledger	ISOCurrency
+General Ledger	Journalizing
+General Ledger	KeySum
+General Ledger	LanguageTxt
+General Ledger	Ledger
+Cash Management	LedgerAccountCov
+General Ledger	LedgerBalanceSheet
+Cash Management	LedgerCov
+Cash Management	LedgerCurrencyReq
+Cash Management	LedgerCustPaymJour
+General Ledger	LedgerEncumbranceReconciliation
+General Ledger	LedgerFiscalCalendar
+Accounts Payable	LedgerJournalPrintOutInvoice_Vend
+Cash Management	LedgerJournalTableCustPaymentListPage
+Cash Management	LedgerJournalTableVendPaymentListPage
+Cash Management	LedgerJournalTransBankChequeReversal
+Cash Management	LedgerJournalTransBankDepositPaymCancel
+Cash Management	LedgerJournalTransCustPaym
+Accounts Payable	LedgerJournalTransType_Vend
+Cash Management	LedgerJournalTransVendPaym
+Cash Management	LedgerJournalTransVendPromissoryNote
+Cash Management	LedgerLiquidity
+Cash Management	LedgerPaym
+General Ledger	LedgerPosting
+Cash Management	LedgerVendorPayment
+General Ledger	LedgerPeriodModule
+General Ledger	LineOfBusiness
+Cash Management	LJE_Vend
+General Ledger	LoadAutoCompleteDataEventArgsTestProxy
+General Ledger	MainAccount
+General Ledger	Microsoft.Dynamics.AX.Fim
+Accounts Receivable	Microsoft.DynamicsO..roxy.PaymentService
+General Ledger	Microsoft.DynamicsO..roxy.UserManagement
+General Ledger	Microsoft.DynamicsOnline.DOClientProxy
+General Ledger	MonetaryAmount
+General Ledger	NaturalAccount
+General Ledger	NotesLine
+General Ledger	Offset
+General Ledger	OriginalDocument
+General Ledger	OutstandingDebt
+General Ledger	PartyMainAccount
+Cash Management	Paym
+General Ledger	Per
+Cash Management	Prenote
+Accounts Receivable	PrintMgmtNode_CustInvoiceTable
+Accounts Receivable	PrintMgmtFreeText
+Accounts Payable	PrintMgmtPayables
+Accounts Receivable	PrintMgmtReceivables
+Accounts Payable	PurchAdvance
+Accounts Payable	PurchCalcTax_Invoice 
+Accounts Payable	PurchCalcTax_ParmTransInvoice
+Accounts Payable	PurchEditLinesForm_Invoice
+Accounts Payable	PurchFormletter_Invoice
+Accounts Payable	PurchFormletterParmDataInvoice
+Accounts Payable	PurchFormLetterReport_AdvanceInvoice
+Accounts Payable	PurchFormLetterReport_Invoice
+Accounts Payable	PurchInvoice
+Accounts Payable	PurchJournalMatch_Invoice
+Accounts Payable	PurchJournalSelect_Invoice
+Accounts Payable	PurchPrepay
+Accounts Payable	PurchQuantity_Invoice
+Accounts Payable	PurchSelectLines
+Accounts Payable	PurchSummaryFields_Invoice
+Accounts Payable	PurchSummaryModel_Account_Invoice
+Accounts Payable	PurchSummaryModel_Auto_Invoice
+Accounts Payable	PurchSummaryParametersForm_Invoice
+Accounts Payable	PurchTmp
+Accounts Payable	PurchTotals_ParmTransExpected 
+Accounts Payable	PurchUpdatePendingInvoice
+Budget	QuickLinks_BudgetManagerLinks
+Budget	QuickLinks_BudgetManagerReportLinks
+Cash Management	QuickLinks_TreasurerLinks
+Cash Management	QuickLinks_TreasurerReportLinks
+Accounts Receivable	RCCust
+General Ledger	Reason
+Accounts Receivable	RecurrenceInvoice
+General Ledger	ReleaseUpdateDB60_FinStmtMinor
+Budget	RoleCenterBudgetManager
+General Ledger	RoleCenterCEO
+General Ledger	RoleCenterCFO
+Cash Management	RoleCenterTreasurer
+Accounts Receivable	SalesCalcTax_Invoice
+Accounts Receivable	SalesEditLinesForm_Invoice
+Accounts Receivable	SalesFormletter_Invoice
+Accounts Receivable	SalesFormletterParmDataInvoice
+Accounts Receivable	SalesFormLetterReport_AccountStatement
+Accounts Receivable	SalesFormLetterReport_AdvanceInvoice
+Accounts Receivable	SalesFormLetterReport_CollectionLetter
+Accounts Receivable	SalesFormLetterReport_InterestNote
+Accounts Receivable	SalesFormLetterReport_Invoice
+Accounts Receivable	SalesInvoice
+Accounts Receivable	SalesJournalSelect_Invoice
+Accounts Receivable	SalesQuantity_Invoice
+Accounts Receivable	SalesSummaryFields_Invoice
+Accounts Receivable	SalesSummaryParametersForm_Invoice
+Accounts Receivable	SalesTaxByCustomer
+General Ledger	SegmentValueChangedEventArgsTestProxy
+Cash Management	Settle
+General Ledger	Shared
+Cash Management	SortingStringRight
+Accounting Framework	SourceDoc
+Accounting Framework	SourceDocument
+Cash Management	Spec
+General Ledger	Stat
+Accounting Framework	SubLedger
+Budget	SysBudget
+General Ledger	SysCurrency
+General Ledger	SysDateEffective
+General Ledger	SysDim
+General Ledger	SysFillUtility
+Fixed Assets	SysListPanelSet_Asset
+Compliance	SysTableField
+Compliance	SysTableLookup
+Accounts Receivable	SysToolTipPreview
+Tax	FimUnitTestTransData
+Tax	Tax
+Tax	TaxPurchInvoice
+Tax	TaxSalesInvoice
+Accounts Receivable	TaxSalesLedger
+General Ledger	TermMainAccount
+General Ledger	TmpAccount
+Cash Management	tmpBank
+Accounts Receivable	TmpBillOfExchange
+Cash Management	TmpCash
+Fixed Assets	TmpDateSum
+General Ledger	TmpDim
+General Ledger	TmpJournal
+Budget	TmpProjBudgetBalances
+Accounts Payable	TmpPromissoryNoteStatistics
+General Ledger	TmpReference
+Accounts Payable	tmpVend
+General Ledger	TmpVoucher
+General Ledger	Transaction
+Accounts Payable	TransactionReversal_Vend
+General Ledger	TransactionTxt
+General Ledger	TransactTxt
+General Ledger	TransTextContext
+Cash Management	Treasurer
+General Ledger	VarianceMainAcc
+Accounts Payable	Vend
+Cash Management	VendBankPrenoteGeneration
+Cash Management	VendCheque
+Cash Management	VendExch
+Accounts Payable	VendInvoice
+Accounts Payable	VendInvoiceContract
+Accounts Payable	VendInvoiceJourJoinVendTrans
+Accounts Payable	VendInvoiceUIBuilder
+Cash Management	VendOpenTrans
+Cash Management	VendorPayment
+Cash Management	VendOutPaym
+Cash Management	VendPaym
+Cash Management	VendPDC
+Cash Management	VendPostDatedCheck
+Accounts Payable	VendPostedUnionUnpostedInvoice
+Cash Management	VendPromissoryNote
+Accounts Payable	VendPromissoryNoteStatCalc_Vend
+Cash Management	VendSettle
+Accounts Payable	VendSettlementTax1099
+Cash Management	VendShowspecifikation
+Cash Management	VendSpecTransOverview
+Cash Management	VendSumForPaym
+Accounts Payable	VendTransOpen
+Cash Management	VendTransSettle
+General Ledger	XBRL
+FIM Total	
+	
+GFM_APAC	*_CN
+GFM_APAC	*_CNTest
+GFM_APAC	*_IL
+GFM_APAC	*_IN
+GFM_APAC	*_IN_Test
+GFM_APAC	*_INTest
+GFM_APAC	*_JP
+GFM_APAC	*_JPTest
+GFM_APAC	*_MY
+GFM_APAC	*_SA
+GFM_APAC	*_SATest
+GFM_APAC	*_SG
+GFM_APAC	*_TH
+GFM_APAC	*AU
+GFM_APAC	*AUANZ
+GFM_APAC	*AUCBA
+GFM_APAC	*AUNAB
+GFM_APAC	*AUSTG
+GFM_APAC	*AUWBC
+GFM_APAC	*IN
+GFM_APAC	*JPJBA
+GFM_APAC	*Zakat_SA
+GFM_APAC	*Zakat_SAMaintain
+GFM_APAC	*Zakat_SAView
+GFM_APAC	AddressZipCodeImportExtension
+GFM_APAC	CustVendUnrealizedRev
+GFM_APAC	DimensionAttributeLevelTaxBranchView
+GFM_APAC	DimensionAttributeValueSetTaxBranchView
+GFM_APAC	EmplTransSource_AccountPayable
+GFM_APAC	Exim
+GFM_APAC	FiscalCalendarsEventHandler
+GFM_APAC	GBT
+GFM_APAC	InventStock
+GFM_APAC	LedgerAccountAnalysisByDimension 
+GFM_APAC	LedgerAccountBalSheetByDim
+GFM_APAC	LedgerCashDailyStatus
+GFM_APAC	PostSalesInvJour
+GFM_APAC	PostSalesInvoiceJourCreateEventHandler
+GFM_APAC	ServiceTaxPOTInquiry_IN_Test
+GFM_APAC	ServiceTaxPOTInquiryBase_INTestable
+GFM_APAC	TaxWithholdAccountGroup
+GFM_APAC	TaxWithholdAuthority
+GFM_APAC	TaxWithholdItemGroup
+GFM_APAC	TaxWithholdPeriod
+GFM_APAC	TaxWithholdReport
+GFM_APAC	TaxWithholdRevenueTable
+GFM_APAC	TaxWithholdSettlement
+GFM_APAC	TaxWithholdSlip
+GFM_APAC	VendUnrealizedRev
+GFM_Apac	VoucherTypeWizard_CNTestable
+GFM_APAC Total	
+	
+GFM_EE	*CZ
+GFM_EE	*CZTest
+GFM_EE	*EE
+GFM_EE	*EETest
+GFM_EE	*HU
+GFM_EE	*HUTest
+GFM_EE	*LT
+GFM_EE	*LTTest
+GFM_EE	*LV
+GFM_EE	*LVTest
+GFM_EE	*PL
+GFM_EE	*PLTest
+GFM_EE	*Transptn
+GFM_EE	AssetAcquisitionStatement
+GFM_EE	AssetAcquisitionStmt
+GFM_EE	AssetCard
+GFM_EE	AssetDepreciationPlan
+GFM_EE	AssetDepreciationSummary
+GFM_EE	AssetExploitation
+GFM_EE	AssetFullyDepreciated
+GFM_EE	AssetInternalTransfer
+GFM_EE	AssetLiquidation
+GFM_EE	AssetMovement
+GFM_EE	AssetRecord
+GFM_EE	AssetRepair
+GFM_EE	AssetYearDepreciationPlan
+GFM_EE	CashBook
+GFM_EE	CashNotReported
+GFM_EE	CashOrder
+GFM_EE	CashReport
+GFM_EE	CommercialRegister
+GFM_EE	CustVendTransOpenStmt 
+GFM_EE	CZ
+GFM_EE	CzAdvancePaymentProposal_Vend
+GFM_EE	EE
+GFM_EE	HU
+GFM_EE	LastPl
+GFM_EE	LedgerBalanceSheet
+GFM_EE	LedgerJournalPreview
+GFM_EE	LedgerJournalVoucherPreview
+GFM_EE	LedgerStatement
+GFM_EE	LedgerTurnoverAndBalance
+GFM_EE	LT
+GFM_EE	LV
+GFM_EE	PaymCalendar
+GFM_EE	PL
+GFM_EE	PrintMgmtNode_PurchaseAdvanceInvoice
+GFM_EE	PrintMgmtNode_SalesAdvanceInvoice
+GFM_EE	PurchEditLinesForm_SAD
+GFM_EE	PurchFormletterParmDataSAD
+GFM_EE	PurchSAD
+GFM_EE	TransactionTextParameterSetup
+GFM_EE	SalesTaxDeclaration
+GFM_EE Total	
+	
+GFM_LATAM	*_BR
+GFM_LATAM	*_BRAttribute
+GFM_LATAM	*_BRFake
+GFM_LATAM	*_BRSpy
+GFM_LATAM	*_BRStub
+GFM_LATAM	*_BRTest
+GFM_LATAM	*_BRTestable
+GFM_LATAM	*_MX
+GFM_LATAM	*_MX.BusinessLogic
+GFM_LATAM	*_MXTest
+GFM_LATAM	*_MXTestable
+GFM_LATAM	*BR_Test
+GFM_LATAM	*BRTest
+GFM_LATAM	*Brtest
+GFM_LATAM	*ComplementaryInvoice
+GFM_LATAM	*ComplInv
+GFM_LATAM	*ComplInvoice
+GFM_LATAM	ACOJournalVoucherObject_BRtest
+GFM_LATAM	BR_
+GFM_LATAM	BrazilParameters
+GFM_LATAM	CityHoliday
+GFM_LATAM	CityHolidayTest
+GFM_LATAM	ComplementaryInvoice
+GFM_LATAM	ConfImportBR_Test
+GFM_LATAM	DigitalCertificate
+GFM_LATAM	EFDocReceive
+GFM_LATAM	FB
+GFM_LATAM	FiscalDoc
+GFM_LATAM	IEFDocMsg
+GFM_LATAM	InflationAdjJournal
+GFM_LATAM	ISRConcept
+GFM_LATAM	ISRProvisionalDetailedHelper
+GFM_LATAM	LegalEntityLocationSelectionLookup
+GFM_LATAM	MX_
+GFM_LATAM	NotApplicableExternalFiscalDocAttribute
+GFM_LATAM	PrintMgmtHierarchy_Ledger
+GFM_LATAM	PrintMgmtNode_Ledger
+GFM_LATAM	PurchComplementaryInv
+GFM_LATAM	PurchComplInv
+GFM_LATAM	SalesComplementaryInv
+GFM_LATAM	SalesComplInv
+GFM_LATAM	SysEmailAccount
+GFM_LATAM	SysEmailMessageRead
+GFM_LATAM	SysEmailPopClient
+GFM_LATAM	SysEmailPopServer
+GFM_LATAM	SysEmailRead
+GFM_LATAM	TaxFiscalDoc
+GFM_LATAM Total	
+	
+GFM_NA	*_CA
+GFM_NA	*1099
+GFM_NA	*NA
+GFM_NA	*NACHA
+GFM_NA	*US
+GFM_NA	Tax1099
+GFM_NA	TmpIRSPayerRec
+GFM_NA	VendStateTaxID
+GFM_NA	VendTax1099
+GFM_NA Total	
+	
+GFM_RU	*_RU
+GFM_RU	*_RUTest
+GFM_RU	*ExtBondTest
+GFM_RU	*RAssetTable
+GFM_RU	*RCash*
+GFM_RU	*RDeferrals*
+GFM_RU	*RRG*
+GFM_RU	*RTSL*
+GFM_RU	*RUProxy
+GFM_RU	*TaxRegistration
+GFM_RU	*TaxRegistrationAddress
+GFM_RU	CustomJournal
+GFM_RU	DirPartTaxRegistration
+GFM_RU	DirPartyImportResourceData
+GFM_RU	EmplAdvTable
+GFM_RU	Facture
+GFM_RU	FormLetterNonSSRSPrintMgmtAdapter
+GFM_RU	IRPay
+GFM_RU	LedgerRR
+GFM_RU	NonSSRSPrintMgmtAdapter
+GFM_RU	NonSSRSPrintMgmtAdapterTest
+GFM_RU	OXMLExcelReport
+GFM_RU	PackingSlipReportAttribute
+GFM_RU	PurchBailee
+GFM_RU	PurchInvoice4
+GFM_RU	RActAdjust
+GFM_RU	Rasset
+GFM_RU	RCalc
+GFM_RU	Rcash
+GFM_RU	RCust
+GFM_RU	RDeferrals
+GFM_RU	RHolderData
+GFM_RU	RHRM
+GFM_RU	RLedger
+GFM_RU	RNumDateInWordConverter
+GFM_RU	Rpay
+GFM_RU	RReport
+GFM_RU	RTax25
+GFM_RU	RTSL
+GFM_RU	SalesBailee
+GFM_RU	SalesInvoice4
+GFM_RU	SysGeneralizableAttribute
+GFM_RU	SysGeneralizableExtensionAppFactory
+GFM_RU	SysIConditionalExtension
+GFM_RU	XMLExcel
+GFM_RU Total	
+	
+GFM_W	*_W
+GFM_W	*_WTest
+GFM_W	*GDL
+GFM_W	CountryRegionOptimization
+GFM_W	ReleaseUpdateBulkCopyField_GLS
+GFM_W	ReleaseUpdateBulkCopyTable_GLS
+GFM_W	Vehicle
+GFM_W Total	
+	
+GFM_WE	*_ES
+GFM_WE	*_FOR
+GFM_WE	*_IS
+GFM_WE	*_LM
+GFM_WE	*_SEPG
+GFM_WE	*347
+GFM_WE	*349
+GFM_WE	*AT
+GFM_WE	*BE
+GFM_WE	*BE_DOM
+GFM_WE	*BEISABEL
+GFM_WE	*BEISABEL128
+GFM_WE	*BEL
+GFM_WE	*BESWIFT
+GFM_WE	*BLWI
+GFM_WE	*BS
+GFM_WE	*CH
+GFM_WE	*CH_LSV
+GFM_WE	*CHDTA
+GFM_WE	*CHEZAG
+GFM_WE	*DE
+GFM_WE	*DE_DTAUS
+GFM_WE	*DEDTAUS
+GFM_WE	*DEDTAZV
+GFM_WE	*DK
+GFM_WE	*DK_BS
+GFM_WE	*DKBEC
+GFM_WE	*DKBG
+GFM_WE	*DKDBTS
+GFM_WE	*DKJBNE
+GFM_WE	*DKJBTB
+GFM_WE	*DKKaSel526
+GFM_WE	*DKOBG
+GFM_WE	*DKPBS
+GFM_WE	*DKSB
+GFM_WE	*DKSB40
+GFM_WE	*DKUni
+GFM_WE	*DTAUS
+GFM_WE	*EDIFACT
+GFM_WE	*EL
+GFM_WE	*ESAEB
+GFM_WE	*FI
+GFM_WE	*FI_BASIC
+GFM_WE	*FR
+GFM_WE	*FRAFB
+GFM_WE	*GB
+GFM_WE	*GDL_CustVendOut
+GFM_WE	*IT
+GFM_WE	*ITTest
+GFM_WE	*LSV
+GFM_WE	*LU
+GFM_WE	*MT940
+GFM_WE	*NL
+GFM_WE	*NLBTL91
+GFM_WE	*NLClieOp03
+GFM_WE	*NO
+GFM_WE	*NO_AG
+GFM_WE	*NO_BBSR
+GFM_WE	*NO_IP
+GFM_WE	*NO_TP
+GFM_WE	*NOTP106
+GFM_WE	*NOTP200
+GFM_WE	*NZ_DL
+GFM_WE	*ProdCom
+GFM_WE	*PT
+GFM_WE	*RBC
+GFM_WE	*SE
+GFM_WE	*SEBG
+GFM_WE	*SEPGU
+GFM_WE	*SESWIFT
+GFM_WE	*State11
+GFM_WE	*Statement11
+GFM_WE	*UK
+GFM_WE	*UK_BACS
+GFM_WE	AssetBookBookForPostingLayerLookup
+GFM_WE	AssetBookLVP
+GFM_WE	AssetDepBookLVP
+GFM_WE	AssetLVP
+GFM_WE	AssetRBSL
+GFM_WE	AssetTaxStatistic
+GFM_WE	AssetTransferToLVP
+GFM_WE	AxdEUSLReporting
+GFM_WE	BankAccountTrap
+GFM_WE	BankCoda
+GFM_WE	BankCustPaymId
+GFM_WE	BankCustPaymIdTable
+GFM_WE	BankCustPaymModeBank
+GFM_WE	BankCustPaymModeBankAccounts
+GFM_WE	BankCustPaymModeBankAccounts
+GFM_WE	BankCustPaymProposalSpec
+GFM_WE	BankFileArch
+GFM_WE	BankFileArchParameters
+GFM_WE	BankFileArchTable
+GFM_WE	BankPaymBalance
+GFM_WE	BankPaymBalanceSurvey
+GFM_WE	BankPaymBalanceSurveyPaymCodes
+GFM_WE	BankVendPaymModeBank
+GFM_WE	BankVendPaymModeBankAccounts
+GFM_WE	BankVendPaymProposalSpec
+GFM_WE	Basic
+GFM_WE	BlackList
+GFM_WE	BLWI
+GFM_WE	Cheque_
+GFM_WE	CountryRegionGroupBLWI
+GFM_WE	CurrencyChfEurLookup
+GFM_WE	CusteGiro
+GFM_WE	CusteInvoice
+GFM_WE	CustInPaymCH
+GFM_WE	CustInPaymNO
+GFM_WE	CustInPaymSE
+GFM_WE	CustInvoiceReferenceNumber_FI_Formula1
+GFM_WE	CustInvoiceReferenceNumber_FI_Formula2
+GFM_WE	CustOutPaym_ 
+GFM_WE	CustOutPaymAT
+GFM_WE	CustOutPaymCH
+GFM_WE	CustOutPaymControl_
+GFM_WE	CustOutPaymCreate
+GFM_WE	CustOutPaymDE
+GFM_WE	CustOutPaymFI
+GFM_WE	CustOutPaymNO
+GFM_WE	CustOutPaymRecord_ 
+GFM_WE	CustOutPaymRecord_DK
+GFM_WE	CustOutPaymRecord_ESAEB
+GFM_WE	CustOutPaymRecordCH
+GFM_WE	CustOutPaymSE
+GFM_WE	CustPayments
+GFM_WE	CustPaymReconciliationImport_
+GFM_WE	CustVendCommunication
+GFM_WE	CustVendList
+GFM_WE	CustVendNACHAIATInfoTable
+GFM_WE	CustVendOutPaymFileSequence
+GFM_WE	CustVendOutPaymNL_DisketteLabels
+GFM_WE	CustVendOutPaymNL_InstructionLetter
+GFM_WE	CustVendPaymFileAnalyze
+GFM_WE	DIOTDeclarationReport
+GFM_WE	DIOTDeclartionConcept
+GFM_WE	EcoResProductInventExt
+GFM_WE	EDIFACT
+GFM_WE	eGiro
+GFM_WE	eInvoice
+GFM_WE	EInvoiceXSLFileTransform
+GFM_WE	EUSalesList
+GFM_WE	EUSalesListDiskNL
+GFM_WE	EUSalesListReporting
+GFM_WE	EUSLReporting
+GFM_WE	ExportFormat 
+GFM_WE	FullSettlement
+GFM_WE	GDPdU
+GFM_WE	GIFICodesToFinancialStatementTemplate
+GFM_WE	InpcRateTable
+GFM_WE	Intrastat2Prodcom
+GFM_WE	Intrastat
+GFM_WE	IntrastatArchive
+GFM_WE	IntrastatDisk
+GFM_WE	IntrastatFormLetter
+GFM_WE	IntrastatList
+GFM_WE	IntrastatToProdcom
+GFM_WE	IntrastatTransfer
+GFM_WE	InventExt
+GFM_WE	InventFiscalLIFO
+GFM_WE	InventJournalExt
+GFM_WE	InventProdCOM
+GFM_WE	LedgerGDPd
+GFM_WE	LedgerInAccountStatement
+GFM_WE	LedgerJournalizeReport_
+GFM_WE	LedgerJournalizeTrans_
+GFM_WE	LedgerOpening
+GFM_WE	LedgerPostingJournal
+GFM_WE	LedgerRelatedAccounts
+GFM_WE	LedgerSIEExportFile
+GFM_WE	LedgerTmpGDPd
+GFM_WE	LedgerXBRL
+GFM_WE	NAF
+GFM_WE	OrganizationAdministration
+GFM_WE	PaymInstruction
+GFM_WE	ProdCom
+GFM_WE	ProdProjEInvoice
+GFM_WE	SalesOrderEntry
+GFM_WE	SalesPurchaseCycle
+GFM_WE	SalesPurchCycle
+GFM_WE	SalesSalesEInvoice
+GFM_WE	SysFileStore
+GFM_WE	TaxBapi
+GFM_WE	TaxBook
+GFM_WE	TaxCalcBas
+GFM_WE	TaxCalcReportBE
+GFM_WE	TaxEdivat
+GFM_WE	TaxElectronic
+GFM_WE	TaxExchRateAdjustment
+GFM_WE	TaxIntervat
+GFM_WE	TaxPurchaseTax
+GFM_WE	TaxRep347
+GFM_WE	TaxReport_
+GFM_WE	TaxReport3
+GFM_WE	TaxReport347
+GFM_WE	TaxReport349
+GFM_WE	TaxReportDomestic
+GFM_WE	TaxReportInitialize
+GFM_WE	TaxReportLines
+GFM_WE	TaxReportSelectSettlementAccount
+GFM_WE	TaxReportTable
+GFM_WE	TaxReportToAscii 
+GFM_WE	TaxVATNumValidate
+GFM_WE	TaxVATNumValidateIE
+GFM_WE	TaxVatPurchReport
+GFM_WE	TaxVatReportCategory
+GFM_WE	TaxVatSalesReport
+GFM_WE	TaxWithholdTransPeriod
+GFM_WE	TaxXML_
+GFM_WE	TaxYearlyCom
+GFM_WE	TmpAssetFixedBook
+GFM_WE	TmpCountryRegion
+GFM_WE	TmpNumberSequence
+GFM_WE	TmpReportTable
+GFM_WE	TradeBLWI
+GFM_WE	VATRegister
+GFM_WE	VendInvoiceSum
+GFM_WE	VendOutPaym_
+GFM_WE	VendOutPaymCreate_
+GFM_WE	VendOutPaymRecord_
+GFM_WE	VendPayments
+GFM_WE	VendPaymReconciliationImport_
+GFM_WE	Transportation
+GFM_WE Total	
+	
+HRM	*_Hcm
+HRM	*_HRM
+HRM	*_Payroll
+HRM	AxdAbsenceRequest
+HRM	AxdHcm
+HRM	AxdHRM
+HRM	AxHcm
+HRM	AxHRM
+HRM	CC
+HRM	DateEffective
+HRM	DateEffectiveness
+HRM	default_Human
+HRM	DirView
+HRM	DV
+HRM	EmplWorkLocalPhone
+HRM	EPAbsence
+HRM	EPAddNewAbsence
+HRM	EPMyProfile
+HRM	EPPersonal
+HRM	EPRefreshAbsence
+HRM	EPStaffing
+HRM	EPTraining
+HRM	Hcm
+HRM	HR
+HRM	HRConsistencyCheck
+HRM	HRPParty
+HRM	Job
+HRM	KM
+HRM	OMTeam
+HRM	OMDepartment
+HRM	Organization
+HRM	Payroll
+HRM	Position
+HRM	PRL
+HRM	SysDateOptions
+HRM	RoleCenterHRManager
+HRM	RoleCenterStaffingSpecialist
+HRM	RoleCenterTrainingManager
+HRM	QuickLinks_StaffingSpecialistLinks
+HRM	QuickLinks_StaffingSpecialistReportLinks
+HRM	QuickLinks_HRManagerLinks
+HRM	QuickLinks_HRManagerReportLinks
+HRM	QuickLinks_TrainingManagerLinks
+HRM	*PayrollDisbursement
+HRM	AccDistConstPayroll
+HRM	VendOutPaymNACHAPayroll
+HRM	VendOutPaymRecordPayroll
+HRM	CustVendCheque_Payroll
+HRM	PayrollPayStatementGenerateVendorInvoice 
+HRM	VendOutPaym_Cheque_Payroll
+HRM	AccDistRulePayroll
+HRM	AccJourRulePayroll
+HRM	SourceDocumentLineItemIPayroll
+HRM	AccDistFormDisplayPayroll
+HRM	DimDerDistRulePayrollEarningSTMTCost
+HRM	DimDerDistRulePayStatement
+HRM	JournalizingDefinitionManagerPayroll
+HRM	SubledgerJournalAccEntryFormPayroll
+HRM	QuickLinks_TrainingManagerReportLinks
+HRM Total	
+	
+Infrastructure	CollapseGLSandSYS
+Infrastructure	TmpIdRef
+Infrastructure	TmpSetup
+Infrastructure	TmpRecid
+Infrastructure Total	
+	
+Inventory	*_Invent
+Inventory	AxdASN
+Inventory	AxdCounting
+Inventory	AxdPick
+Inventory	AxdProfit
+Inventory	AxdSendTransfer
+Inventory	AxdTransfer
+Inventory	Barcode
+Inventory	CustVendTransport
+Inventory	EPShippingAndReceiving
+Inventory	EPWarehouse
+Inventory	GlobalParameters
+Inventory	InterCompanyGoodsInTransit
+Inventory	Invent
+Inventory	InventItemGTIN
+Inventory	InventoryAndWarehouseManagement
+Inventory	InvTst
+Inventory	Journal
+Inventory	LifeScience
+Inventory	ParmBuffer
+Inventory	ParmUpdate
+Inventory	PDS
+Inventory	PrintMgmtHierarchy_Invent
+Inventory	PrintMgmtInvent
+Inventory	PrintMgmtNode_Invent
+Inventory	RCInvent
+Inventory	RFID
+Inventory	SalesReleaseOrderPicking
+Inventory	ShipCarrier
+Inventory	SysIntetHTMLEditor_EcoRes
+Inventory	SysSign
+Inventory	TmpJoin
+Inventory	TmpPackMaterial
+Inventory	TmpSup
+Inventory	Tutorial_SysESign
+Inventory Total	
+	
+Manufacturing	*_JMG
+Manufacturing	*_Manufacturing
+Manufacturing	*_Prod
+Manufacturing	*_Route
+Manufacturing	AxBOM
+Manufacturing	AxBudget
+Manufacturing	AxdAttend
+Manufacturing	AxdBill
+Manufacturing	AxdProd
+Manufacturing	AxdRoute
+Manufacturing	AxdSendAttend
+Manufacturing	AxdSendBill
+Manufacturing	AxdSendService
+Manufacturing	AxdService
+Manufacturing	AxdWork
+Manufacturing	AxJmg
+Manufacturing	AxProd
+Manufacturing	AxWrk
+Manufacturing	BOM
+Manufacturing	EBC
+Manufacturing	EngChg
+Manufacturing	EPOperationManager
+Manufacturing	EPService
+Manufacturing	EPShop
+Manufacturing	Forecast
+Manufacturing	Gantt
+Manufacturing	InterCompanyReq
+Manufacturing	InventMov_Kanban
+Manufacturing	InventSiteActivate
+Manufacturing	InventSupply
+Manufacturing	JMG
+Manufacturing	Kanban
+Manufacturing	Lean
+Manufacturing	LeanCosting
+Manufacturing	Manufacturing
+Manufacturing	MasterPlanning
+Manufacturing	MultiSelectionHelper
+Manufacturing	PSC
+Manufacturing	Plan
+Manufacturing	PMF
+Manufacturing	Process
+Manufacturing	Prod
+Manufacturing	ProductionControl
+Manufacturing	Req
+Manufacturing	Route
+Manufacturing	SalesATP
+Manufacturing	SalesConfirmDates
+Manufacturing	SalesUpdateConfirmDate
+Manufacturing	ServiceManagement 
+Manufacturing	ServiceSubscription 
+Manufacturing	SFC
+Manufacturing	SIGRoute
+Manufacturing	Site
+Manufacturing	TestProject_Manufacturing
+Manufacturing	TmpSched
+Manufacturing	UpdateBase
+Manufacturing	VendInvoiceTransExpanded
+Manufacturing	Work
+Manufacturing	WrkCtr
+Manufacturing	xGantt
+Manufacturing Total	
+	
+OBA	DocuDataSource 
+OBA	Oba
+OBA	OfficeAddin
+OBA	SysExcel
+OBA Total	
+	
+Product Management	*_EcoRes
+Product Management	*_PBA
+Product Management	*_PC
+Product Management	AxdEcoRes
+Product Management	AxdItem
+Product Management	AxdSendItem
+Product Management	AxdUnit
+Product Management	AxEcoRes
+Product Management	AxInventDimCombination
+Product Management	AxInventItem
+Product Management	AxInventTable
+Product Management	AxUnit
+Product Management	ComplianceAndInternalControls
+Product Management	Config
+Product Management	EcoRes
+Product Management	Environment
+Product Management	ImageListAppl_EcoResCategory
+Product Management	InventDimCombination
+Product Management	InventInventDimComb
+Product Management	InventItem_
+Product Management	InventItemId
+Product Management	InventItemService
+Product Management	InventItemType
+Product Management	InventLookup
+Product Management	InventProductDimensionLookup
+Product Management	InventTable
+Product Management	LogisticsAdvanced
+Product Management	Microsoft.Dynamics.AX.Ems
+Product Management	PBA
+Product Management	PC
+Product Management	PdsMRC
+Product Management	SysRecordTemplateEditInventTable
+Product Management	SysRecordTemplateInventTable
+Product Management	SystemParameters
+Product Management	Unit
+Product Management Total	
+	
+Project Contract and Billing	*_ProjectQuotation
+Project Contract and Billing	*_ProjInvoice
+Project Contract and Billing	*_ProjInvoiceJour
+Project Contract and Billing	*_ProjInvoiceTable
+Project Contract and Billing	*_ProjProposal
+Project Contract and Billing	*_ProjProposalJour
+Project Contract and Billing	*SalesQuotation
+Project Contract and Billing	ProjFormLetterReport_Quotation
+Project Contract and Billing	*ProjectInvoice
+Project Contract and Billing	*ProjInvoice
+Project Contract and Billing	AxdProjContract
+Project Contract and Billing	AxdProjInvoice
+Project Contract and Billing	AxdProjQuotation
+Project Contract and Billing	PrintMgmtNode_ProjectQuotation
+Project Contract and Billing	PrintMgmtNode_ProjInvoice
+Project Contract and Billing	PrintMgmtNode_ProjProposal
+Project Contract and Billing	ProdProj
+Project Contract and Billing	ProjContract
+Project Contract and Billing	ProjCreditNote
+Project Contract and Billing	ProjCustInvoice
+Project Contract and Billing	ProjectContract
+Project Contract and Billing	ProjFLR_CustRetentionReleaseInvoice
+Project Contract and Billing	ProjFormLetter_Invoice
+Project Contract and Billing	ProjIntercompany
+Project Contract and Billing	ProjInvoice
+Project Contract and Billing	ProjPrintInvoice
+Project Contract and Billing	ProjProposal
+Project Contract and Billing	ProjTransfer
+Project Contract and Billing	ProjQuotation
+Project Contract and Billing	ProjVendInvoice
+Project Contract and Billing	PSAContract
+Project Contract and Billing	PSAInvoice
+Project Contract and Billing	PSAProjInvoice
+Project Contract and Billing	PSAProjQuotations
+Project Contract and Billing	PSAQuotations
+Project Contract and Billing	PSATmpQuotations
+Project Contract and Billing	SalesQuotationEditLinesForm_Proj
+Project Contract and Billing	SalesQuotationLineType_Proj
+Project Contract and Billing	SalesQuotationMassCreate_Proj
+Project Contract and Billing	SalesQuotationProj
+Project Contract and Billing	SalesQuotationTableForm_Proj
+Project Contract and Billing	SalesQuotationTableType_Proj
+Project Contract and Billing	SalesQuotationTransferToProject
+Project Contract and Billing	SalesTotals_Proj
+Project Contract and Billing Total	
+	
+Project	*_Proj
+Project	*_ProjAccountingDist
+Project	*_ProjActivity
+Project	*_Project
+Project	*_ProjectCost
+Project	*_ProjectItemReq
+Project	*_ProjectJournal
+Project	*_ProjectPurch
+Project	*_ProjectReturnItem
+Project	*_ProjectSales
+Project	*_ProjectSalesItem
+Project	*_ProjectSubscription
+Project	*_ProjItemRequSalesLine
+Project	*_ProjItemTrans
+Project	*_ProjPurchLine
+Project	*_ProjTable
+Project	*_ProjTrans
+Project	AfProjectServiceClass
+Project	AxdProject
+Project	CollabSite
+Project	CostControl
+Project	CustomerRelatedInfoProjects
+Project	Default_project
+Project	DimDerDistRuleVendPayReqForExpProdExt
+Project	DimensionDerivationRule
+Project	ESS
+Project	Hierarchy
+Project	InfoBar
+Project	PrintMgmtHierarchy_Project
+Project	PrintMgmtNode_Project
+Project	PrintMgmtProject
+Project	ProdRouteProj
+Project	Proj
+Project	ProjectManagementAndAccounting
+Project	PSA
+Project	PurchCreateOrderForm_Project
+Project	PurchLineType_Project
+Project	PurchTableForm_Project
+Project	PurchTableType_Project
+Project	RoleCenterPracticeManager
+Project	RoleCenterProject
+Project	SalesCreateOrderForm_Project
+Project	SalesEditLinesForm_Project
+Project	SalesFormLetter_Quotation
+Project	SalesLineType_Project
+Project	SalesTableForm_Project
+Project	SalesTableType_Project
+Project	Sync
+Project	SysProject
+Project	TestProject_ProjectAccounting
+Project	VendInvoiceInfoLine_Project
+Project	xl
+Project Total	
+	
+Public Sector SL1	*_BillingCode
+Public Sector SL1	*_PSN
+Public Sector SL1	AccDistRuleAdvLedgerEntryExt
+Public Sector SL1	AccJourRuleAdvLedgerEntryExt
+Public Sector SL1	AccountantActivities
+Public Sector SL1	AccountingManagerActivities
+Public Sector SL1	AdvancedLedgerEntry
+Public Sector SL1	AdvLedgerEntry
+Public Sector SL1	AgreeLineQityCommitmentEventHandler
+Public Sector SL1	AxAdvancedLedgerEntry
+Public Sector SL1	AxdAdvancedLedgerEntry
+Public Sector SL1	AxdCustomerTransaction
+Public Sector SL1	BudgetAccountDetail
+Public Sector SL1	BudgetControlApportionment
+Public Sector SL1	BudgetProvisional
+Public Sector SL1	BudgetSourceManager_BudgetTransaction
+Public Sector SL1	BudgetSourceTrackingSummaryUpdate
+Public Sector SL1	ConfirmingPO
+Public Sector SL1	CurrentEquityByDimension
+Public Sector SL1	CustBilling
+Public Sector SL1	CustCustomField
+Public Sector SL1	CustDateRange
+Public Sector SL1	CustInterestPeriod
+Public Sector SL1	CustInterestTransLine
+Public Sector SL1	CustInvLineBillCode
+Public Sector SL1	CustnterestTransLineIdRef_Invoice
+Public Sector SL1	CustomerTransaction
+Public Sector SL1	CustReceivableClassification
+Public Sector SL1	CustReceivablePeriodDetail
+Public Sector SL1	CustSettlementbyLine
+Public Sector SL1	CustTmpUnposted
+Public Sector SL1	CustTmpUnsettle
+Public Sector SL1	CustTradingPartnerCode
+Public Sector SL1	CustUnposted
+Public Sector SL1	CustUnsettle
+Public Sector SL1	CustVendPaymentDisbursement
+Public Sector SL1	DimensionBalancing
+Public Sector SL1	EPFinanceDirector
+Public Sector SL1	FundingSource
+Public Sector SL1	JournalizingDefinitionBankTrans
+Public Sector SL1	JournalizingDefinitionCust
+Public Sector SL1	JournalizingDefinitionGeneralLedger
+Public Sector SL1	JournalizingDefinitionGL
+Public Sector SL1	JournalizingDefinitionManagerALE
+Public Sector SL1	JournalizingDefinitionManagerBank
+Public Sector SL1	JournalizingDefinitionManagerCust
+Public Sector SL1	JournalizingDefinitionManagerLedger
+Public Sector SL1	LedgerCustPaymJournal_Cust
+Public Sector SL1	LedgerDerivedFin
+Public Sector SL1	LedgerFinanceDirector
+Public Sector SL1	LedgerFund
+Public Sector SL1	LedgerJournalTransEventHandler
+Public Sector SL1	LedgerYearEndPreview
+Public Sector SL1	PaymTermHold
+Public Sector SL1	Profile_FinanceDirector
+Public Sector SL1	ProjAccountDetailHistory
+Public Sector SL1	ProjFundCategory
+Public Sector SL1	ProjTmpAccountDetailHistory
+Public Sector SL1	ProjTransRevenueTransTest
+Public Sector SL1	PublicSector
+Public Sector SL1	PurchAgreementActivitiesSummary
+Public Sector SL1	PurchAgreementActivity
+Public Sector SL1	PurchAgreementCertification
+Public Sector SL1	PurchAgreementSubcontractor
+Public Sector SL1	PurchAgreementWF
+Public Sector SL1	PurchAgreementWorkflow
+Public Sector SL1	PurchCommitment
+Public Sector SL1	PurchEncumbranceSummary
+Public Sector SL1	PurchInvoiceJournalPostTest
+Public Sector SL1	PurchParmTable_PaymentDisbursement
+Public Sector SL1	PurchReqNotYetApproved
+Public Sector SL1	PurchTotalsSummary
+Public Sector SL1	QuickLinks_AccountantLinks_PS
+Public Sector SL1	QuickLinks_AccountantReportLinks_PS
+Public Sector SL1	QuickLinks_AccountingManagerLinks_PS
+Public Sector SL1	QuickLinks_ARAdministratorPSLinks
+Public Sector SL1	QuickLinks_ARAdministratorReportPSLinks
+Public Sector SL1	QuickLinks_ControllerLinks_PS
+Public Sector SL1	QuickLinks_ControllerReportLinks_PS
+Public Sector SL1	QuickLinks_FinanceDirector_PS
+Public Sector SL1	QuickLnks_AccountingManagerRptLinks_PS
+Public Sector SL1	RoleCenterFinanceDirector
+Public Sector SL1	SysManagedCode
+Public Sector SL1	Tax1099BoxDetail
+Public Sector SL1	TmpCust
+Public Sector SL1	VendCertType
+Public Sector SL1	VendCoverPage
+Public Sector SL1	VendInvoiceHoldHistory
+Public Sector SL1	VendInvoiceInfo_PaymentDisbursement
+Public Sector SL1	VendOpenTransForm
+Public Sector SL1	VendPaymentDisbursement
+Public Sector SL1	YearToYearExpensesByPeriod
+Public Sector SL1 Total	
+	
+Retail	AxdEco
+Retail	AxEco
+Retail	Cat
+Retail	DefaultListWithDetail
+Retail	DimAttributeRetail
+Retail	DimAttributeOMRetailChannel
+Retail	DRMReplication
+Retail	EcoResAttribute
+Retail	EcoResBoundedAttribute
+Retail	EcoResCategory
+Retail	EcoResEnumerationAttribute
+Retail	EcoResProductAttribute
+Retail	EcoResProductCategory
+Retail	EcoResProductImage
+Retail	EcoResProductRelation
+Retail	EcoResSalesCategory
+Retail	EcoResShopping
+Retail	EcoResValue
+Retail	ImageListAppl_CatDisplayCategory
+Retail	MCR
+Retail	QuickLinks_EmployeeLinks
+Retail	Retail
+Retail	RetailConcessionContractCreateInvoice
+Retail	Sample_Code_Cat
+Retail	SysHRP
+Retail	SysSetupConfigKey
+Retail	SysSetupInstaller
+Retail	SysSetupTable
+Retail	SysTranslation
+Retail Total	
+	
+Server and Tools	*KernelTests
+Server and Tools	AccessRightsList
+Server and Tools	Administration
+Server and Tools	AdObject
+Server and Tools	AOS
+Server and Tools	AOSLoadGen
+Server and Tools	AOSSessionInfo
+Server and Tools	AOTTableFieldList
+Server and Tools	AxaptaUserManager
+Server and Tools	AxCommon
+Server and Tools	AxdPrivilegeElevationPermissio
+Server and Tools	Batch
+Server and Tools	BinaryTreeNode
+Server and Tools	Cache
+Server and Tools	ChangeCompany
+Server and Tools	Common
+Server and Tools	Connection
+Server and Tools	ControllingKey
+Server and Tools	CQ
+Server and Tools	CrossCompany
+Server and Tools	CryptoAPI
+Server and Tools	DataArea
+Server and Tools	DatabaseLog
+Server and Tools	DataImportManager
+Server and Tools	DataImportSessionInfo
+Server and Tools	DataPartition
+Server and Tools	DateTime
+Server and Tools	DateTimeUtil
+Server and Tools	DB_SysIssuers
+Server and Tools	DEL_SysUpgradeTimeZone
+Server and Tools	DictConfigurationKey
+Server and Tools	DictField
+Server and Tools	DictFieldGroup
+Server and Tools	DictFullTextIndex
+Server and Tools	DictIndex
+Server and Tools	DictKernel
+Server and Tools	DictLicenseCode
+Server and Tools	DictRelation
+Server and Tools	DictSecurityKey
+Server and Tools	DictTable
+Server and Tools	DictType
+Server and Tools	DictView
+Server and Tools	DomainInfo
+Server and Tools	DomainManager
+Server and Tools	FieldList
+Server and Tools	Guest
+Server and Tools	HierarchyDesigner
+Server and Tools	ImportTableDataInfo
+Server and Tools	ImportTableSchemaInfo
+Server and Tools	InsertRecordset
+Server and Tools	InteropPermission
+Server and Tools	LEDirPartyContactInfoDeactivate 
+Server and Tools	LoginProperty
+Server and Tools	LogMap
+Server and Tools	LOT
+Server and Tools	LoX
+Server and Tools	Mdm
+Server and Tools	Microsoft.Dynamics.AxHierarchyBridge
+Server and Tools	ModelSecPolRuntimeEx 
+Server and Tools	ModelSecPolRuntimeView 
+Server and Tools	My
+Server and Tools	NumberSeq
+Server and Tools	ObjectpermissionsReport 
+Server and Tools	OCC
+Server and Tools	OciConnection
+Server and Tools	OdbcConnection
+Server and Tools	OleCommand
+Server and Tools	OM
+Server and Tools	OrderGroupBy
+Server and Tools	Org
+Server and Tools	OverwriteSystemfieldsPermission
+Server and Tools	Partition
+Server and Tools	PipeClient
+Server and Tools	PipeServer
+Server and Tools	QE
+Server and Tools	Query
+Server and Tools	QueryBuildDataSource
+Server and Tools	QueryBuildDynalink
+Server and Tools	QueryBuildFieldList
+Server and Tools	QueryBuildLink
+Server and Tools	QueryBuildRange
+Server and Tools	QueryFilter
+Server and Tools	QueryGroupByField
+Server and Tools	QueryHelper
+Server and Tools	QueryMiner
+Server and Tools	QueryOrderByField
+Server and Tools	QueryRun
+Server and Tools	RecId
+Server and Tools	RecIdListBaseClass
+Server and Tools	RecordInsertList
+Server and Tools	RecordLinkList
+Server and Tools	RecordSet
+Server and Tools	RecordSortedList
+Server and Tools	RecordViewCache
+Server and Tools	ResultSet
+Server and Tools	ResultSetMetaData
+Server and Tools	RLSUnit
+Server and Tools	RunAsPermission
+Server and Tools	SecurableObject
+Server and Tools	Security
+Server and Tools	SecurityCondition
+Server and Tools	SecurityContext
+Server and Tools	SecurityContextElement
+Server and Tools	SecurityEntryPointLink
+Server and Tools	SecurityInferenceInterface
+Server and Tools	SecurityInferencePermissions
+Server and Tools	SecurityKeySet
+Server and Tools	SecurityPermission
+Server and Tools	SecurityPolicy
+Server and Tools	SecurityRights
+Server and Tools	SecurityRole
+Server and Tools	SecurityRoleAssignmentRule
+Server and Tools	SecurityRoleCondition
+Server and Tools	SecurityRoleExplodedGraph
+Server and Tools	SecurityRolePermissionOverride
+Server and Tools	SecurityRoleTaskGrant
+Server and Tools	SecuritySegregationOfDuties
+Server and Tools	SecuritySegregationOfDutiesConflict
+Server and Tools	SecuritySegregationOfDutiesRule
+Server and Tools	SecuritySubRole
+Server and Tools	SecuritySubTask
+Server and Tools	SecuritySyncEngine
+Server and Tools	SecurityTableRights
+Server and Tools	SecurityTask
+Server and Tools	SecurityTaskEntryPoint
+Server and Tools	SecurityTaskExplodedGraph
+Server and Tools	SecurityTaskPermission
+Server and Tools	SecurityTaskPermissionOverride
+Server and Tools	SecurityUserRole
+Server and Tools	SecurityUserRoleCondition
+Server and Tools	SecurityUtil
+Server and Tools	ServiceNode
+Server and Tools	ServiceOperations 
+Server and Tools	ServiceReference
+Server and Tools	Session
+Server and Tools	SIG
+Server and Tools	SkipAOSValidationPermission
+Server and Tools	SQL
+Server and Tools	Subquery
+Server and Tools	SysActiveTempTable
+Server and Tools	SysAnonymousAXBasicMaintain 
+Server and Tools	SysAOS
+Server and Tools	SysApplication
+Server and Tools	SysAx
+Server and Tools	SysBatchDialog
+Server and Tools	SysBatchRecurrence
+Server and Tools	SysBPCheckCodePermission
+Server and Tools	SysBPCheckDuty
+Server and Tools	SysBPCheckEntryPoint
+Server and Tools	SysBPCheckPermission
+Server and Tools	SysBPCheckPerspective
+Server and Tools	SysBPCheckPolicy
+Server and Tools	SysBPCheckPrivilege
+Server and Tools	SysBPCheckProcess
+Server and Tools	SysBPCheckQuery
+Server and Tools	SysBPCheckRole
+Server and Tools	SysBPCheckSecu
+Server and Tools	SysBPCheckTable
+Server and Tools	SysCacheFlush
+Server and Tools	SysClientSessions
+Server and Tools	SysClusterConfig
+Server and Tools	SysCodeProfiler
+Server and Tools	SysCompany
+Server and Tools	SysCompanyGUIDUsers
+Server and Tools	SysCompanyUser
+Server and Tools	SysCompanyUserInfoWizard
+Server and Tools	SysConsistency
+Server and Tools	SysContainer
+Server and Tools	SysCountrySpecific
+Server and Tools	SysCrypto
+Server and Tools	SysData
+Server and Tools	SysDatabase
+Server and Tools	SysDataarea
+Server and Tools	SysDB
+Server and Tools	SysDefaultData
+Server and Tools	SysDelete
+Server and Tools	SysDictConfigurationKey
+Server and Tools	SysDictField
+Server and Tools	SysDictIndex
+Server and Tools	SysDictRelation
+Server and Tools	SysDictTable
+Server and Tools	SysDistinguishedName
+Server and Tools	SysDomain
+Server and Tools	SysEDTMigration
+Server and Tools	SysEDTSetup
+Server and Tools	SysEntryPoint
+Server and Tools	SysEvents
+Server and Tools	SysExpImp
+Server and Tools	SysExportImport
+Server and Tools	SysField
+Server and Tools	SysFixedSchema
+Server and Tools	SysFlush
+Server and Tools	SysFullText
+Server and Tools	SysGlobalConfiguration
+Server and Tools	SysGlobalObjectCache
+Server and Tools	SysGroup
+Server and Tools	SysHeap
+Server and Tools	SysIndex
+Server and Tools	SysInhCaching
+Server and Tools	SysInheritanceRelations
+Server and Tools	SysLastMinute
+Server and Tools	SysLastValue
+Server and Tools	SysLog
+Server and Tools	SysMSSQL
+Server and Tools	SysObjectServer
+Server and Tools	SysOcc
+Server and Tools	SysOld2NewRecId
+Server and Tools	SysOnline
+Server and Tools	SysOpenDomain
+Server and Tools	SysOracle
+Server and Tools	SysPack
+Server and Tools	SysPolicies
+Server and Tools	SysProfile
+Server and Tools	SysPseudo
+Server and Tools	SysQuery
+Server and Tools	SysRecId
+Server and Tools	SysRecIdRepair
+Server and Tools	SysRecord
+Server and Tools	SysRecordLevelSecurity
+Server and Tools	SysRecurrence
+Server and Tools	SysRel
+Server and Tools	SysRemoveConfig
+Server and Tools	SysRemoveFields
+Server and Tools	SysRemoveLicense
+Server and Tools	SysRemoveTables
+Server and Tools	SysRename
+Server and Tools	SysRetry
+Server and Tools	SysRTL
+Server and Tools	SysRunable
+Server and Tools	SysSaveable
+Server and Tools	sysSaveGranular
+Server and Tools	SysSec
+Server and Tools	SysSecAnalysisAddin
+Server and Tools	SysSecAnalysisAddInMetadataAnalyzer
+Server and Tools	SysServer
+Server and Tools	SysSession
+Server and Tools	SysSetbasedHelper
+Server and Tools	SysSetupCompanyLog
+Server and Tools	SysSetupPartitionLog
+Server and Tools	SysSignature
+Server and Tools	SysSort
+Server and Tools	SysSQL
+Server and Tools	SysSQM
+Server and Tools	SysStmt
+Server and Tools	SysTable
+Server and Tools	SysTableBrowser
+Server and Tools	SysTableRowCount
+Server and Tools	System.Data
+Server and Tools	System.Directory
+Server and Tools	System.Security
+Server and Tools	SystemAdministration
+Server and Tools	SystemDate
+Server and Tools	SystemMonitor
+Server and Tools	SysTempDB
+Server and Tools	systemSequence
+Server and Tools	SystemSequences
+Server and Tools	SysTmpRecIdMap
+Server and Tools	SysTmpRecIdMap 
+Server and Tools	SysTrace
+Server and Tools	SysTransactionScope
+Server and Tools	SysUser
+Server and Tools	SysUsersOnline
+Server and Tools	SysUTC
+Server and Tools	SysVariables
+Server and Tools	SysViewEditMode
+Server and Tools	TableCollectionList
+Server and Tools	TableExtension
+Server and Tools	TableLoading
+Server and Tools	Timezone
+Server and Tools	TmpExcel
+Server and Tools	TmpDataBase
+Server and Tools	TmpDefaultData
+Server and Tools	TmpQuery
+Server and Tools	TmpSysAXUser
+Server and Tools	TmpTableIdMap
+Server and Tools	TPFAOS
+Server and Tools	TreeBuild
+Server and Tools	tutorial_Cheque
+Server and Tools	tutorial_Resources
+Server and Tools	TutorialCodeProfiler
+Server and Tools	UnionTest
+Server and Tools	UnitOfWork
+Server and Tools	UpdateRecord
+Server and Tools	User
+Server and Tools	ValuePaging
+Server and Tools	ViewTest
+Server and Tools	VirtualCompanyCreator
+Server and Tools	VirtualDataAreaList
+Server and Tools	xAccess
+Server and Tools	xAxaptaUserDetails
+Server and Tools	xAxaptaUserManager
+Server and Tools	xCompany
+Server and Tools	xData
+Server and Tools	xDomain
+Server and Tools	XDSServices
+Server and Tools	xRecord
+Server and Tools	xSession
+Server and Tools	xSqlEnumerator
+Server and Tools	xSysConfig
+Server and Tools	xSysConfig
+Server and Tools	xSysLastValue
+Server and Tools	xSysLastValue
+Server and Tools Total	
+	
+Service Management	*_SMA
+Service Management	AutoSchedul
+Service Management	AxSalesLine_SMA
+Service Management	AxSMA
+Service Management	AxdTestCust
+Service Management	SMA
+Service Management Total	
+	
+Setup	*SysCheckList
+Setup	*SysCheckListInterface
+Setup	*SysCheckListItem
+Setup	*SysStartupCmd
+Setup	AssemblyDeployManager
+Setup	AxManagement
+Setup	AxWindow
+Setup	SetupPartition
+Setup	SysApplicationSetup
+Setup	SysAutoRun
+Setup	SysCheckListItem_Synchronize
+Setup	SysCheckListItemTable
+Setup	SysConfig
+Setup	SysFileDeploy
+Setup	SysLicense
+Setup	SysSetupLog
+Setup	SysVersion
+Setup Total	
+	
+Solution Architecture	DMF
+Solution Architecture Total	
+	
+Procurement	*_InterCompany
+Procurement	*_Purch
+Procurement	AccountingDistributionOrder
+Procurement	AssetGroupGlobal
+Procurement	AssetRule
+Procurement	AxdEMS
+Procurement	AxInventDim_Purch
+Procurement	AxMarkup
+Procurement	AxPurch
+Procurement	DirPartyEcoResCategory
+Procurement	EcoResProcurementCategory
+Procurement	Expenditure
+Procurement	ExtCode
+Procurement	EMS
+Procurement	InterCompany
+Procurement	Markup
+Procurement	PrintMgmtHierarchy_Purch
+Procurement	PrintMgmtNode_Purch
+Procurement	PrintMgmtPurch
+Procurement	Proc
+Procurement	ProcCategory
+Procurement	ProcurementAndSourcing
+Procurement	ProductInformationManagement
+Procurement	Purch
+Procurement	PurchPolicy
+Procurement	PurchRequest
+Procurement	SCMTech
+Procurement	TmpSum
+Procurement	TS_InvoicedPurch
+Procurement	TS_PrecentVendors
+Procurement	TS_Purch
+Procurement	VendPackingSlip
+Procurement	VendPurchaseReturns
+Procurement	VendPurchOrder
+Procurement	VendReceiptsList
+Procurement	Versioning
+Procurement	XMLAxId2Code
+Procurement	XMLCode2AxId
+Procurement Total	
+	
+Sourcing	*_PurchReq_LineTax
+Sourcing	*_PurchReqLine
+Sourcing	*_PurchReqTable
+Sourcing	*_PurchRFQ
+Sourcing	*_PurchRFQCaseLine
+Sourcing	*_PurchRFQCaseTable
+Sourcing	*_PurchRFQLine
+Sourcing	*_PurchRFQTable
+Sourcing	*_PurchRFQVendLink
+Sourcing	*_RFQ
+Sourcing	*_RFQCase
+Sourcing	*_RFQJour
+Sourcing	*_RFQParmTrans
+Sourcing	*_RFQReply
+Sourcing	*_RFQTable
+Sourcing	*_Srm
+Sourcing	*_SrmTest
+Sourcing	*PurchReq
+Sourcing	*VSS
+Sourcing	*VSSAdd
+Sourcing	*VSSCreatePSC
+Sourcing	*VSSDelete
+Sourcing	*VSSDeletePSC
+Sourcing	*VSSEdit
+Sourcing	*VSSEditPSC
+Sourcing	*VSSManagePSC
+Sourcing	*VSSToolbar
+Sourcing	*VSSView
+Sourcing	*VSSViewPSC
+Sourcing	Agreement
+Sourcing	AmountString
+Sourcing	AxdRFQ
+Sourcing	AxRFQ
+Sourcing	CatExternal
+Sourcing	CatProc
+Sourcing	CatUserReview
+Sourcing	CatVend
+Sourcing	EPVendExternalItem
+Sourcing	EPVendPacking
+Sourcing	EPVendPurch
+Sourcing	PdsApprovedVendorList
+Sourcing	PrintMgmtNode_PurchRFQ
+Sourcing	PrintMgmtNode_VendTable
+Sourcing	PrintMgmtVendTable
+Sourcing	PurchPurchReq
+Sourcing	PurchPurchRFQ
+Sourcing	PurchReq
+Sourcing	PurchRFQ
+Sourcing	Requisition
+Sourcing	RoleCenterVendor
+Sourcing	Srm
+Sourcing	SysListPanel_VendReq
+Sourcing	TS_Delivery
+Sourcing	TS_TopTen
+Sourcing	TS_Vend
+Sourcing	UserExternal
+Sourcing	UserRequest
+Sourcing	VendAccountChooser
+Sourcing	VendAccountDefault
+Sourcing	VendAccountItemLookup
+Sourcing	VendAccountManager
+Sourcing	VendBalanceList
+Sourcing	VendBankAccount
+Sourcing	VendBase
+Sourcing	VendCategory
+Sourcing	VendCertification
+Sourcing	VendDefaultAccounts
+Sourcing	VendDefaultLocation
+Sourcing	VendDir
+Sourcing	VendGroup
+Sourcing	VendMetrics
+Sourcing	VendNotification
+Sourcing	VendOnHold
+Sourcing	VendorList
+Sourcing	VendorRoleCenter
+Sourcing	VendParty
+Sourcing	VendPhoneList
+Sourcing	VendProfile
+Sourcing	VendProspectiveVendorMasterVSSInquire
+Sourcing	VendReq
+Sourcing	VendRequest
+Sourcing	VendReview
+Sourcing	VendRFQ
+Sourcing	VendSearch
+Sourcing	VendSpend
+Sourcing	VendTable
+Sourcing	VendTop
+Sourcing	VendUnsolicited
+Sourcing	VendUser
+Sourcing	VendVendGroupService
+Sourcing	VendVendorProcessInquire
+Sourcing	VendVendorReferenceDataInquire
+Sourcing	VendVendTableService
+Sourcing	VersioningPurchReq
+Sourcing	VSS
+Sourcing	WorkflowParticipantExpenToken
+Sourcing	WorkflowParticipantProvider_Expend
+Sourcing Total	
+	
+Sales	*_InventProductGroup
+Sales	*_PriceDisc
+Sales	*_Sales
+Sales	AddressSelect
+Sales	AxCommision
+Sales	AxdDelivery
+Sales	AxdLineDiscount
+Sales	AxDlv
+Sales	AxdReturn
+Sales	AxdSendPrice
+Sales	AxECPCust
+Sales	AxFormLetter
+Sales	AxInventDim_Price
+Sales	AxInventDim_Sales
+Sales	AxLanguage
+Sales	AxPriceDisc
+Sales	AxSales
+Sales	BlanketOrder
+Sales	Commission
+Sales	CSS
+Sales	CustConfirm
+Sales	CustFormletter
+Sales	CustPackingSlip
+Sales	CustPickingList
+Sales	CustQuotation
+Sales	CustSalesLines
+Sales	CustUser
+Sales	CustVendExternalItem
+Sales	Delivery
+Sales	DestinationCode
+Sales	Dlv
+Sales	ECP
+Sales	ECPPresentation
+Sales	EPCustSignUpRequest
+Sales	EPOrderProcessor
+Sales	EUSales
+Sales	ExportSales
+Sales	FormLetter
+Sales	ImageListAppl_DeliverySchedule
+Sales	InventAllDeadlineGroup
+Sales	InventAllSite
+Sales	InventFallback
+Sales	InventOrderEntry
+Sales	InventProductGroup
+Sales	InventSiteAllGroupAllActivation
+Sales	InventSiteAllGroupSpecificActivation
+Sales	InventSiteSpecificGroupAllActivation
+Sales	InventSiteSpecificGrSpecificActivation
+Sales	InventTablePriceDiscount
+Sales	MCRAutoTax
+Sales	MCRBroker
+Sales	MCRCategoryHierarchyAddCust
+Sales	MCRCustCategory
+Sales	MCRCustomerSearch
+Sales	MCRCustSearch
+Sales	MCRCustTableIndex
+Sales	MCRDrop
+Sales	MCRFullText
+Sales	MCRFundCategory
+Sales	MCRHierarchyAddCust
+Sales	MCRHold
+Sales	MCRInventTableIndex
+Sales	MCRItemList
+Sales	MCRMarginAlert
+Sales	MCROMHolds
+Sales	MCROrderEvent
+Sales	MCROrderHold
+Sales	MCROrderNotes
+Sales	MCRPriceHistory
+Sales	MCRProductSearch
+Sales	MCRQuote
+Sales	MCRRoyalty
+Sales	MCRSalesLineDrop
+Sales	MCRSalesTableDetailedStatus
+Sales	MCRSuppItem
+Sales	PdsComd
+Sales	PdsRebate
+Sales	Price
+Sales	PriceDisc
+Sales	PriceList
+Sales	PrintMgmtHierarchy_Sales
+Sales	PrintMgmtNode_Sales
+Sales	PrintMgmtSales
+Sales	RCCommission
+Sales	RCSales
+Sales	Return
+Sales	Sales
+Sales	SalesQuotation
+Sales	Sup
+Sales	TAM
+Sales	TaxSales
+Sales	TmpFrmVirtual
+Sales	Trade
+Sales	TS_NetSales
+Sales	TS_SIFO
+Sales	WebProductCatalog
+Sales Total	
+	
+Upgrade framework	ISysUpgrade
+Upgrade framework	Release
+Upgrade framework	SysAdvancedCompare
+Upgrade framework	SysBootstrap
+Upgrade framework	SysCheckList
+Upgrade framework	SysConnectionString
+Upgrade framework	SynchronizeUpdate
+Upgrade framework	SynchronizeUpgrade
+Upgrade framework	SysCheckListItem_CodeMerge
+Upgrade framework	SysCheckListItem_RestartAllAosServ
+Upgrade framework	SysDiffUtil
+Upgrade framework	SysImpactAnalysis
+Upgrade framework	SysUpdateCode
+Upgrade framework	SysUpgrade
+Upgrade framework	Upgrade
+Upgrade Framework Total	
+	
+Upgrade scripts	ReleaseUpdateDB41
+Upgrade scripts	ReleaseUpdateDB41_Basic
+Upgrade scripts	ReleaseUpdateDB60
+Upgrade scripts	ReleaseUpdateDB60_Basic
+Upgrade scripts	ReleaseUpdateDB62
+Upgrade Scripts Total	
+	
+Warehouse and Transportation	TMS
+Warehouse and Transportation	WHS
+Warehouse and Transportation	WMS
+	
+Workflow	AlertTracking
+Workflow	Event
+Workflow	Expression
+Workflow	ImageResource_260
+Workflow	Microsoft.Dynamics.AX.Expression.Model
+Workflow	Microsoft.Dynamics.Framework.MetaModel
+Workflow	Microsoft.Dynamics.Framework.Workflow
+Workflow	SubWorkflow
+Workflow	SysBPCheckWorkflow
+Workflow	SysDictWorkflow
+Workflow	SysExpression
+Workflow	SysListPanel_Workflow
+Workflow	SysMailer
+Workflow	SysSecurityViewWorkflow
+Workflow	SysWorkflow
+Workflow	UnifiedWorkList
+Workflow	WFEIssue
+Workflow	Workflow
+Workflow	WRWorkflow
