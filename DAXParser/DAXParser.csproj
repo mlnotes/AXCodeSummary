@@ -58,6 +58,7 @@
     <Compile Include="CodeParse\IO\XPOReader.cs" />
     <Compile Include="CodeParse\MapData.cs" />
     <Compile Include="CodeParse\QueryData.cs" />
+    <Compile Include="CodeParse\ServiceData.cs" />
     <Compile Include="CodeParse\SSRSData.cs" />
     <Compile Include="CodeParse\TableData.cs" />
     <Compile Include="CodeParse\Util\Logger.cs" />

@@ -36,6 +36,7 @@
 			this.lblBaseLayer = new System.Windows.Forms.Label();
 			this.textBaseLayer = new System.Windows.Forms.TextBox();
 			this.groupLog = new System.Windows.Forms.GroupBox();
+			this.textLog = new System.Windows.Forms.RichTextBox();
 			this.groupConfig = new System.Windows.Forms.GroupBox();
 			this.cbEnum = new System.Windows.Forms.CheckBox();
 			this.cbView = new System.Windows.Forms.CheckBox();
@@ -66,7 +67,7 @@
 			this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
 			this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
 			this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
-			this.textLog = new System.Windows.Forms.RichTextBox();
+			this.cbService = new System.Windows.Forms.CheckBox();
 			((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
 			this.splitContainer1.Panel1.SuspendLayout();
 			this.splitContainer1.Panel2.SuspendLayout();
@@ -180,10 +181,25 @@
 			this.groupLog.TabStop = false;
 			this.groupLog.Text = "Log";
 			// 
+			// textLog
+			// 
+			this.textLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+						| System.Windows.Forms.AnchorStyles.Left)
+						| System.Windows.Forms.AnchorStyles.Right)));
+			this.textLog.BackColor = System.Drawing.SystemColors.ControlLightLight;
+			this.textLog.Location = new System.Drawing.Point(6, 20);
+			this.textLog.Name = "textLog";
+			this.textLog.ReadOnly = true;
+			this.textLog.Size = new System.Drawing.Size(586, 206);
+			this.textLog.TabIndex = 0;
+			this.textLog.Text = "";
+			this.textLog.TextChanged += new System.EventHandler(this.textLog_TextChanged);
+			// 
 			// groupConfig
 			// 
 			this.groupConfig.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
 						| System.Windows.Forms.AnchorStyles.Right)));
+			this.groupConfig.Controls.Add(this.cbService);
 			this.groupConfig.Controls.Add(this.cbEnum);
 			this.groupConfig.Controls.Add(this.cbView);
 			this.groupConfig.Controls.Add(this.cbMap);
@@ -474,19 +490,15 @@
 			// 
 			this.openFileDialog.FileName = "openFileDialog";
 			// 
-			// textLog
+			// cbService
 			// 
-			this.textLog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-						| System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
-			this.textLog.BackColor = System.Drawing.SystemColors.ControlLightLight;
-			this.textLog.Location = new System.Drawing.Point(6, 20);
-			this.textLog.Name = "textLog";
-			this.textLog.ReadOnly = true;
-			this.textLog.Size = new System.Drawing.Size(586, 206);
-			this.textLog.TabIndex = 0;
-			this.textLog.Text = "";
-			this.textLog.TextChanged += new System.EventHandler(this.textLog_TextChanged);
+			this.cbService.AutoSize = true;
+			this.cbService.Location = new System.Drawing.Point(521, 24);
+			this.cbService.Name = "cbService";
+			this.cbService.Size = new System.Drawing.Size(62, 17);
+			this.cbService.TabIndex = 29;
+			this.cbService.Text = "Service";
+			this.cbService.UseVisualStyleBackColor = true;
 			// 
 			// MainForm
 			// 
@@ -495,7 +507,7 @@
 			this.BackColor = System.Drawing.SystemColors.ControlLight;
 			this.ClientSize = new System.Drawing.Size(622, 556);
 			this.Controls.Add(this.splitContainer1);
-			this.MinimumSize = new System.Drawing.Size(600, 0);
+			this.MinimumSize = new System.Drawing.Size(600, 39);
 			this.Name = "MainForm";
 			this.Text = "AX Code Summary";
 			this.splitContainer1.Panel1.ResumeLayout(false);
@@ -552,6 +564,7 @@
 		private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
 		private System.ComponentModel.BackgroundWorker backgroundWorker;
 		private System.Windows.Forms.RichTextBox textLog;
+		private System.Windows.Forms.CheckBox cbService;
 
 
 	}

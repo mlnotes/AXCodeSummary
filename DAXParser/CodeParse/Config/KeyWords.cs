@@ -37,6 +37,7 @@ namespace DAXParser.CodeParse.Config
 		public const string ENDINDICES = "ENDINDICES";
 		public const string REPORT = "REPORT";
 		public const string ENDREPORT = "ENDREPORT";
+		public const string SERVICE = "SERVICE";
 
 		public const string MAP = "MAP";
 		public const string ENDMAP = "ENDMAP";

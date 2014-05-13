@@ -25,6 +25,7 @@ namespace AXCodeSummary
 		private const string MODULE_VIEW = "view";
 		private const string MODULE_QUERY = "query";
 		private const string MODULE_ENUM = "enum";
+		private const string MODULE_SERVICE = "service";
 
 		// parameters used to run background work
 		private string[] ParmLayers;
@@ -86,6 +87,9 @@ namespace AXCodeSummary
 						break;
 					case MODULE_ENUM:
 						cbEnum.Checked = true;
+						break;
+					case MODULE_SERVICE:
+						cbService.Checked = true;
 						break;
 					default:
 						break;
@@ -218,6 +222,10 @@ namespace AXCodeSummary
 			if (cbEnum.Checked)
 			{
 				result.Add(MODULE_ENUM);
+			}
+			if (cbService.Checked)
+			{
+				result.Add(MODULE_SERVICE);
 			}
 			return result;
 		}

@@ -96,6 +96,10 @@ namespace DAXParser
 					List<SSRSData> ssrs = DirParser.Parse(dirs, ModuleDirs.GetModuleDir(module), prefix, postfix, country, region, SSRSData.Parse, pattern);
 					dumper.Dump(ssrs);
 					break;
+				case ModuleDirs.Name.SERVICE:
+					List<ServiceData> service = DirParser.Parse(dirs, ModuleDirs.GetModuleDir(module), prefix, postfix, country, region, ServiceData.Parse, pattern);
+					dumper.Dump(service);
+					break;
 			}
 		}
 		
