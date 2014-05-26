@@ -16,9 +16,10 @@ namespace DAXParser.CodeParse.Config
 
 		public static bool IsCountryTag(string tag)
 		{
-			return TAGS.Contains(tag);
+			//return TAGS.Contains(tag);
+			return true;
 		}
 
-		public static string TagPattern = "//.*<(.{1,})>";
+		public static string TagPattern = "//.*<(G|/G)([A-Z]{1,})>"; //"//.*<(.{1,})>";
 	}
 }

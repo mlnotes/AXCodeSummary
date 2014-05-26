@@ -23,14 +23,19 @@ namespace DAXParser.CodeParse.Common
 			Match match = Regex.Match(line, CountryTags.TagPattern);
 			if (match.Success)
 			{
-				string tag = match.Groups[1].Value;
-				if (tag.Contains("/") && CountryTags.IsCountryTag(tag.Substring(1)))
+				string starts = match.Groups[1].Value;
+				string tag = match.Groups[2].Value;
+				//if (tag.Contains("/") && CountryTags.IsCountryTag(tag.Substring(1)))
+				//{
+				//    return tag;
+				//}
+				//else if (CountryTags.IsCountryTag(tag))
+				//{
+				//    return tag;
+				//}
+				if (CountryTags.IsCountryTag("G" + tag))
 				{
-					return tag;
-				}
-				else if (CountryTags.IsCountryTag(tag))
-				{
-					return tag;
+					return starts + tag;
 				}
 			}
 
